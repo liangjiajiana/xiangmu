@@ -1,0 +1,260 @@
+#topHeader {
+  width: 100%;
+  background: #F2F2F2;
+  border-bottom: 1px solid #ddd;
+  height: 26px;
+  line-height: 26px;
+}
+
+#topHeader .topHeader-l li {
+  float: left;
+  margin-left: 8px;
+}
+
+#topHeader .topHeader-r {
+  width: 800px;
+  float: right;
+  height: 26px;
+}
+
+#topHeader .topHeader-r li span {
+  float: left;
+  padding-left: 13px;
+  padding-right: 15px;
+}
+
+#nav {
+  background: url("../img/nav.jpg");
+  height: 90px;
+  background-position: center;
+  background-size: cover;
+}
+
+.minHeight {
+  height: 114px;
+  margin-top: 10px;
+}
+
+.minHeight .container .minHeight-l {
+  height: 100px;
+  width: 274px;
+  float: left;
+  padding-top: 10px;
+  padding-left: 3px;
+}
+
+.minHeight .container .minHeight-s {
+  float: left;
+  width: 500px;
+  height: 100px;
+  padding-top: 12px;
+  padding-left: 38px;
+}
+
+.minHeight .container .minHeight-s .search input {
+  width: 380px;
+  height: 39px;
+  border: 3px solid red;
+  vertical-align: middle;
+  margin-bottom: 5px;
+}
+
+.minHeight .container .minHeight-s .search .sou {
+  vertical-align: middle;
+  background: red;
+  width: 88px;
+  height: 44px;
+  color: #fff;
+  margin-bottom: 5px;
+}
+
+.minHeight .minHeight-s > ul > li > span {
+  float: left;
+  padding-left: 14px;
+  padding-right: 5px;
+  border-left: 1px solid #ddd;
+}
+
+.minHeight .minHeight-r {
+  float: right;
+  width: 370px;
+  height: 100px;
+  padding-top: 10px;
+}
+
+.minHeight .minHeight-r ul li {
+  display: inline-block;
+}
+
+.minHeight .minHeight-r ul span {
+  margin-left: 3px;
+}
+
+.navigation .navWrap {
+  width: 1400px;
+  height: 34px;
+  background: #8F0000;
+}
+
+.navigation .container .Menu {
+  float: left;
+  width: 145px;
+  height: 34px;
+  background: #CE171F;
+  color: #fff;
+  line-height: 34px;
+  text-align: center;
+  font-size: 18px;
+  position: relative;
+  padding-left: 45px;
+}
+
+.navigation .container .Menu .Menu1 {
+  display: none;
+  position: absolute;
+  width: 190px;
+  height: 470px;
+  top: 34px;
+  left: 0;
+}
+
+.navigation .container .Menu .Menu1 li {
+  height: 70px;
+  width: 190px;
+  position: relative;
+  background: #FFFFFF;
+  border-left: 1px solid red;
+  border-right: 1px solid red;
+  border-bottom: 1px solid red;
+  border-bottom: 1px solid #ddd;
+}
+
+.navigation .container .Menu .Menu1 li i {
+  position: absolute;
+  display: block;
+  width: 20px;
+  height: 18px;
+  top: 10px;
+  left: 16px;
+  background: url("../img/xin.png") no-repeat;
+}
+
+.navigation .container .Menu .Menu1 li h3 a {
+  color: #000000;
+  font-size: 14px;
+  padding-left: 25px;
+}
+
+.navigation .container .Menu .Menu1 li .categoryCon p {
+  padding-left: 10px;
+  width: 180px;
+  height: 20px;
+}
+
+.navigation .container .Menu .Menu1 li .categoryCon p a {
+  display: inline-block;
+  width: 50px;
+  float: left;
+  height: 16px;
+  line-height: 16px;
+  color: #666666;
+  font-size: 12px;
+  margin-left: 5px;
+}
+
+.navigation .container .navList {
+  float: left;
+  height: 34px;
+  width: 800px;
+}
+
+.navigation .container span {
+  padding-right: 13px;
+  padding-left: 13px;
+  width: 86px;
+  display: inline-block;
+  height: 34px;
+  line-height: 34px;
+  font-size: 18px;
+  float: left;
+  text-align: center;
+}
+
+.navigation .container a {
+  line-height: 34px;
+  height: 34px;
+  width: 86px;
+  display: block;
+  color: #fff;
+  font-size: 14px;
+}
+
+.navigation .container .nav3 {
+  float: right;
+}
+
+.navList ul li :hover a {
+  background: #CE171F;
+}
+
+.navigation .navWrap .Menu2 {
+  display: none;
+  position: absolute;
+  width: 622px;
+  height: 427px;
+  left: 192px;
+  top: 34px;
+}
+
+.navigation .navWrap .Menu2 .Menu2-l {
+  float: left;
+  height: 427px;
+  background: #F1F1F1;
+  width: 90px;
+  color: #333333;
+}
+
+.navigation .navWrap .Menu2 .Menu2-l ul {
+  padding-top: 10px;
+}
+
+.navigation .navWrap .Menu2 .Menu2-l ul li {
+  font-size: 12px;
+  padding-bottom: 14px;
+}
+
+.navigation .navWrap .Menu2 .Menu2-c {
+  float: left;
+  width: 283px;
+  height: 414px;
+  background: #FFFFFF;
+  padding: 13px 6px 0 15px;
+}
+
+.navigation .navWrap .Menu2 .Menu2-c .Menu2-box {
+  width: 282px;
+  height: 216px;
+  background: #FFFFFF;
+}
+
+.navigation .navWrap .Menu2 .Menu2-c .Menu2-box p {
+  border-bottom: 1px dashed #ccc;
+}
+
+.navigation .navWrap .Menu2 .Menu2-c .Menu2-box p a {
+  display: inline-block;
+  color: #666666;
+}
+
+.navigation .navWrap .Menu2 .Menu2-r {
+  float: right;
+}
+
+.navigation .navWrap .Menu2 .Menu2-r img {
+  width: 221px;
+  height: 427px;
+}
+
+.navWrap .Menu1 > li :hover .Menu2 {
+  display: block;
+}

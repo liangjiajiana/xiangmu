@@ -1,0 +1,243 @@
+#topHeader{
+    width: 100%;
+    background:#F2F2F2;
+    border-bottom:1px solid #ddd;
+    height: 26px;
+    line-height:26px;
+}
+#topHeader .topHeader-l li{
+    float:left; 
+    margin-left:8px;
+}
+#topHeader .topHeader-r{
+    width: 800px;
+    float:right;
+    height: 26px;
+}
+#topHeader .topHeader-r li span{
+    float:left;
+    padding-left:13px;
+    padding-right:15px;
+}
+#nav{
+    background:url('../img/nav.jpg');
+    height: 90px;
+    background-position:center;
+     background-size:cover;
+}
+.minHeight{
+    height: 114px;
+    margin-top:10px;
+}
+.minHeight .container{
+    .minHeight-l{
+        height: 100px;
+        width: 274px;
+        float:left;
+        padding-top:10px;
+        padding-left:3px;
+    }
+     .minHeight-s{
+        float:left;
+        width: 500px;
+        height: 100px;
+        padding-top:12px;
+        padding-left:38px;
+        .search{
+            input{
+              width: 380px;
+              height: 39px;
+              border:3px solid red;
+              vertical-align: middle;
+              margin-bottom:5px;
+             }
+             .sou{
+                vertical-align: middle;
+                background:red;
+                width: 88px;
+                height: 44px;
+                color:#fff;
+                margin-bottom:5px;
+             }
+        }
+     }
+}
+.minHeight .minHeight-s>ul>li>span{
+    float:left;
+    padding-left:14px;
+    padding-right:5px;
+    border-left:1px solid #ddd;
+}
+.minHeight .minHeight-r{
+    float:right;
+    width: 370px;
+    height: 100px;
+    padding-top:10px;
+    ul{
+        li{
+            display:inline-block;
+        }
+        span{
+            margin-left:3px;
+        }
+    }
+}
+.navigation{
+    .navWrap{
+        width: 1400px;
+        height: 34px;
+        background:#8F0000;
+    }
+    .container{
+        .Menu{
+            float:left;
+            width: 145px;
+            height: 34px;
+            background:#CE171F;
+            color:#fff;
+            line-height:34px;
+            text-align:center;
+            font-size:18px;
+            position:relative;
+            padding-left:45px;
+            .Menu1{
+                display:none; 
+                // background: green;
+                position:absolute;
+                width: 190px;
+                height: 470px;
+                top:34px;
+                left:0;
+                    li{ 
+                    height: 70px;
+                    width: 190px;
+                    position:relative;
+                    background:#FFFFFF;
+                    border-left:1px solid red;
+                    border-right:1px solid red;
+                    border-bottom:1px solid red;
+                    border-bottom:1px solid #ddd;
+                        i{
+                            position:absolute;
+                            display:block;
+                            width: 20px;
+                            height: 18px;
+                            top:10px;
+                            left:16px;
+                            background:url("../img/xin.png") no-repeat;
+                        }
+                        h3{
+                          a{
+                            color:#000000;
+                            font-size:14px;
+                            padding-left:25px;
+                           }
+                        }
+                        .categoryCon{
+                            p{
+                                padding-left:10px;
+                                width: 180px;
+                                height: 20px;
+                                a{
+                                    display:inline-block;
+                                    width: 50px;
+                                    float:left;
+                                    height: 16px;
+                                    line-height:16px;
+                                    color:#666666;
+                                    font-size:12px;
+                                    margin-left:5px;
+                                }
+                            }   
+                    
+                        }
+                    }
+                }
+            }
+        .navList{
+            float:left;
+            height: 34px;
+            width: 800px;
+        }
+        span{
+            padding-right:13px;
+            padding-left:13px;
+            width: 86px;
+            display:inline-block;
+            height: 34px;
+            line-height:34px;
+            font-size:18px;
+            float:left;
+            text-align:center;
+        }
+        a{
+            line-height:34px;
+            height: 34px;
+            width: 86px;
+            display:block;
+            color:#fff;
+            font-size:14px;
+        }
+        .nav3{
+            float:right;
+        }
+    }
+}
+.navList ul li :hover a{
+    background:#CE171F;
+}
+// .navWrap .container .Menu1:hover li{
+//       background: #ddd;
+// }
+.navigation .navWrap .Menu2{
+    display:none;
+    position:absolute;
+    width: 622px;
+    height: 427px;
+    left:192px;
+    top:34px;
+    .Menu2-l{
+        float:left;
+        height: 427px;
+        background:#F1F1F1;
+        width: 90px;
+        color:#333333;
+        ul{
+            padding-top:10px;
+            li{
+                font-size:12px;
+                padding-bottom:14px;
+            }
+        }
+    }
+    .Menu2-c{
+        float:left;
+        width: 283px;
+        height: 414px;
+        background: #FFFFFF;
+        padding:13px 6px 0 15px;
+        .Menu2-box{
+            width: 282px;
+            height: 216px;
+            background: #FFFFFF;
+            p{
+                border-bottom:1px dashed #ccc;
+                a{
+                    display:inline-block;
+                    color:#666666;
+                }
+            }
+        }
+    }
+    .Menu2-r{
+        float:right;
+        img{
+            width: 221px;
+            height: 427px;
+        }
+    }
+}
+.navWrap .Menu1>li :hover .Menu2{
+     display:block;
+}
+

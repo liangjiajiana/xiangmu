@@ -1,0 +1,185 @@
+.footTopBox {
+  width: 1400px;
+  height: 289px;
+  background: #333333;
+}
+
+.footTopBox .container .foot-t {
+  height: 80px;
+  width: 1200px;
+  border-bottom: 1px solid #494949;
+}
+
+.footTopBox .foot-t p {
+  float: left;
+  padding-top: 10px;
+  width: 461px;
+  height: 76px;
+  line-height: 36px;
+}
+
+.footTopBox .foot-t .haoma {
+  font-size: 18px;
+  padding-left: 8px;
+  color: #CC001B;
+}
+
+.footTopBox .foot-t .rexian {
+  font-size: 18px;
+  color: #fff;
+  padding-left: 8px;
+}
+
+.footTopBox .foot-tr {
+  padding-top: 10px;
+  line-height: 36px;
+  width: 300px;
+  height: 76px;
+  float: right;
+  font-size: 14px;
+  position: relative;
+}
+
+.footTopBox .foot-tr span {
+  color: #fff;
+}
+
+.footTopBox .foot-tr input {
+  margin-left: 6px;
+  width: 200px;
+  height: 30px;
+  border: 1px solid #494949;
+  background: #333333;
+}
+
+.footTopBox .foot-tr i {
+  width: 28px;
+  height: 28px;
+  top: 22px;
+  left: 244px;
+  position: absolute;
+  background: url(../img/youxiang.png);
+}
+
+.footTopBox .foot-b {
+  padding-top: 35px;
+  height: 158px;
+}
+
+.footTopBox .foot-b .foot-sevies {
+  height: 125px;
+  width: 1200px;
+}
+
+.footTopBox .foot-b ul li {
+  display: inline-block;
+  width: 120px;
+  position: relative;
+  margin-right: 40px;
+}
+
+.footTopBox .foot-b ul li h3 {
+  font-size: 16px;
+  color: #fff;
+  padding-left: 36px;
+  margin-bottom: 4px;
+}
+
+.footTopBox .foot-b ul li i {
+  position: absolute;
+  width: 30px;
+  height: 34px;
+  left: 0;
+  top: -12px;
+  background: url(../img/bashou.png);
+}
+
+.footTopBox .foot-b ul li p {
+  padding-left: 36px;
+  width: 84px;
+  height: 26px;
+  line-height: 26px;
+  color: #fff;
+  font-size: 12px;
+}
+
+.footBoTBox {
+  width: 1400px;
+  height: 249px;
+  background: #F9F9F9;
+  padding-top: 30px;
+}
+
+.footBoTBox .container {
+  height: 259px;
+}
+
+.footBoTBox .container .footBot {
+  height: 220px;
+  width: 1200px;
+}
+
+.footBoTBox .container .footBot-t {
+  width: 746px;
+  padding-left: 14px;
+  margin-bottom: 4px;
+}
+
+.footBoTBox .container .footBot-t a {
+  display: inline-block;
+  width: 60px;
+  height: 17px;
+  line-height: 17px;
+  font-size: 12px;
+  margin-left: 2px;
+  margin-right: 3px;
+  border-right: 1px solid #ddd;
+  text-align: center;
+}
+
+.footBoTBox .container .link {
+  height: 20px;
+  width: 760px;
+  padding: 17px 0 3px 0;
+}
+
+.footBoTBox .container .link a {
+  display: inline-block;
+  width: 80px;
+  height: 17px;
+  line-height: 17px;
+  font-size: 12px;
+  border-right: 1px solid #ddd;
+  text-align: center;
+}
+
+.footBoTBox .footBot .footBotLeft {
+  width: 760px;
+  float: left;
+}
+
+.footBoTBox .footBot .footBotRight {
+  float: left;
+  width: 240px;
+  height: 110px;
+  margin-left: 70px;
+  margin-top: 40px;
+}
+
+.footBoTBox .footBot .footBotRight .jx-code {
+  float: left;
+  display: inline-block;
+  width: 80px;
+}
+
+.footBoTBox .footBot .footBotRight .jx-code .codePic {
+  width: 80px;
+  width: 80px;
+}
+
+.footBoTBox .footBot .footBotRight .jx-code .codeText {
+  width: 80px;
+  height: 24px;
+  line-height: 24px;
+  padding-left: 10px;
+}
