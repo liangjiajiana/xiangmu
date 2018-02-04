@@ -1,5 +1,4 @@
 #topHeader {
-  width: 100%;
   background: #F2F2F2;
   border-bottom: 1px solid #ddd;
   height: 26px;
@@ -110,7 +109,7 @@
 }
 
 .navigation .container .Menu .Menu1 {
-  display: none;
+  z-index: 1;
   position: absolute;
   width: 190px;
   height: 470px;
@@ -119,7 +118,7 @@
 }
 
 .navigation .container .Menu .Menu1 li {
-  height: 70px;
+  height: 77px;
   width: 190px;
   position: relative;
   background: #FFFFFF;
@@ -197,13 +196,17 @@
   background: #CE171F;
 }
 
+.navWrap .container .Menu1 > li:hover {
+  background: #ddd;
+}
+
 .navigation .navWrap .Menu2 {
   display: none;
   position: absolute;
   width: 622px;
   height: 427px;
-  left: 192px;
-  top: 34px;
+  left: 190px;
+  top: 0px;
 }
 
 .navigation .navWrap .Menu2 .Menu2-l {
@@ -219,13 +222,15 @@
 }
 
 .navigation .navWrap .Menu2 .Menu2-l ul li {
+  height: 30px;
+  width: 87px;
   font-size: 12px;
   padding-bottom: 14px;
 }
 
 .navigation .navWrap .Menu2 .Menu2-c {
   float: left;
-  width: 283px;
+  width: 290px;
   height: 414px;
   background: #FFFFFF;
   padding: 13px 6px 0 15px;
@@ -255,6 +260,6 @@
   height: 427px;
 }
 
-.navWrap .Menu1 > li :hover .Menu2 {
+.navWrap .Menu1 > li:hover .Menu2 {
   display: block;
 }

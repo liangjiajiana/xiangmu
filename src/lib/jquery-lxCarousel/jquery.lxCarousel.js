@@ -5,7 +5,7 @@
             height:320,
             page:true,
             duration:2000,
-            buttons:false,
+            // buttons:true,
             type:'vertical',//horizontal,seamless,fade
             index:0,
             autoPlay:true

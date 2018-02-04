@@ -1,7 +1,6 @@
 #carousel {
-  width: 1400px;
+  width: 1410px;
   height: 472px;
-  background: blue;
 }
 
 #lay1 {
@@ -11,7 +10,99 @@
 
 #lay1 .container {
   height: 500px;
-  background: green;
+}
+
+#lay1 .container .IndexTabbox {
+  height: 500px;
+  width: 926px;
+  float: left;
+}
+
+#lay1 .container .IndexTabbox .IndexNav {
+  height: 38px;
+}
+
+#lay1 .container .IndexTabbox .IndexNav ul li {
+  float: left;
+  width: 183px;
+  height: 38px;
+  background: #F9F9F9;
+  line-height: 38px;
+  text-align: center;
+  font-size: 16px;
+  border: 1px solid #ccc;
+}
+
+#lay1 .container .IndexTabbox .IndexNav ul .jiage {
+  padding-left: 18px;
+}
+
+#lay1 .container .Indexlist {
+  height: 461px;
+  width: 926px;
+  position: relative;
+}
+
+#lay1 .container .Indexlist ul {
+  padding-top: 25px;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+#lay1 .container .Indexlist ul li {
+  width: 177px;
+  height: 195px;
+  display: inline-block;
+  margin-left: 2px;
+}
+
+#lay1 .container .Indexright {
+  float: left;
+  height: 479px;
+  width: 271px;
+  border-left: 1px solid #ECECEC;
+}
+
+#lay1 .container .Indexright .Indexright-t {
+  height: 140px;
+  background: #fff;
+  border-bottom: 1px solid #ECECEC;
+}
+
+#lay1 .container .Indexright .Indexright-t ul li {
+  float: left;
+  height: 38px;
+  line-height: 38px;
+  text-align: center;
+  width: 133px;
+  font-size: 16px;
+  border: 1px solid #ECECEC;
+}
+
+#lay1 .container .Indexright .Indexright-t p {
+  margin-bottom: 15px;
+  padding-left: 18px;
+}
+
+#lay1 .container .Indexright .Indexright-t p span {
+  padding-left: 22px;
+}
+
+#lay1 .container .Indexright .Indexright-c {
+  width: 269px;
+  height: 160px;
+  margin-top: 7px;
+  border: 1px solid #ECECEC;
+  border-left: 0px;
+}
+
+#lay1 .container .Indexright .Indexright-b {
+  width: 269px;
+  height: 160px;
+  margin-top: 7px;
+  border: 1px solid #ECECEC;
+  border-left: 0px;
 }
 
 #advertising {
@@ -21,68 +112,511 @@
 
 #advertising .container {
   padding-top: 22px;
-  height: 180px;
+  height: 137px;
   background: #F9F9F9;
 }
 
 #raceListWrap {
   width: 1400px;
   background: #F9F9F9;
+  position: relative;
 }
 
 #raceListWrap .container {
   height: 257px;
-  background: pink;
+}
+
+#raceListWrap .container h3 {
+  height: 40px;
+  background: #F9F9F9;
+  width: 1170px;
+  font-size: 20px;
+  padding-left: 30px;
+}
+
+#raceListWrap .container i {
+  position: absolute;
+  width: 28px;
+  height: 28px;
+  left: 99px;
+  top: -4px;
+  background: url(../img/shizhong.png) no-repeat;
+}
+
+#raceListWrap .container .raceListWrap-b {
+  height: 213px;
+  width: 1200px;
+  border: 1px solid #ECECEC;
 }
 
 #whiteWine {
   width: 1400px;
   background: #F9F9F9;
+  position: relative;
 }
 
 #whiteWine .container {
   height: 702px;
-  background: blue;
+}
+
+#whiteWine .container h3 {
+  height: 28px;
+  width: 1165px;
+  line-height: 30px;
+  font-size: 18px;
+  padding-top: 15px;
+  padding-left: 35px;
+}
+
+#whiteWine .container i {
+  position: absolute;
+  width: 33px;
+  height: 36px;
+  left: 95px;
+  top: 7px;
+  background: url(../img/1f.png) no-repeat;
+}
+
+#whiteWine .container .whiteWine-b {
+  height: 640px;
+  width: 1200px;
+  border-top: 1px solid #C94B56;
+}
+
+#whiteWine .container .whiteWine-b .whiteWine-bl {
+  width: 212px;
+  height: 640px;
+  float: left;
+}
+
+#whiteWine .container .whiteWine-b .whiteWine-bl .whiteWine-blt {
+  width: 212px;
+  height: 487px;
+}
+
+#whiteWine .container .whiteWine-b .whiteWine-bl .whiteWine-blb {
+  height: 142px;
+  width: 195px;
+  padding-top: 10px;
+  padding-left: 15px;
+  background: #F9F9F9;
+  border: 1px solid #ECECEC;
+}
+
+#whiteWine .container .whiteWine-b .whiteWine-bl .whiteWine-blb .whiteWine-box {
+  width: 178px;
+  height: 128px;
+}
+
+#whiteWine .container .whiteWine-b .whiteWine-bl .whiteWine-blb .whiteWine-box p {
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+#whiteWine .container .whiteWine-b .whiteWine-bl .whiteWine-blb .whiteWine-box p span {
+  padding-left: 5px;
+}
+
+#whiteWine .container .whiteWine-b .whiteWine-br {
+  height: 487px;
+  width: 986px;
+  float: left;
+}
+
+#whiteWine .container .whiteWine-b .whiteWine-br ul li {
+  display: inline-block;
+  height: 240px;
+  width: 192px;
+  border: 1px solid #ECECEC;
+}
+
+#whiteWine .container .whiteWine-b .whiteWine-brb {
+  margin-top: 15px;
+  height: 140px;
+  width: 984px;
+  float: left;
+}
+
+#whiteWine .container .whiteWine-b .whiteWine-brb h4 {
+  width: 964px;
+  padding-left: 20px;
+  font-size: 18px;
 }
 
 #redWine {
   width: 1400px;
   background: #F9F9F9;
+  position: relative;
 }
 
 #redWine .container {
   height: 702px;
-  background: pink;
+}
+
+#redWine .container h3 {
+  height: 28px;
+  width: 1165px;
+  line-height: 30px;
+  font-size: 18px;
+  padding-top: 15px;
+  padding-left: 35px;
+}
+
+#redWine .container i {
+  position: absolute;
+  width: 33px;
+  height: 36px;
+  left: 95px;
+  top: 7px;
+  background: url(../img/2f.png) no-repeat;
+}
+
+#redWine .container .redWine-b {
+  height: 640px;
+  width: 1200px;
+  border-top: 1px solid #C37632;
+}
+
+#redWine .container .redWine-b .redWine-bl {
+  width: 212px;
+  height: 640px;
+  float: left;
+}
+
+#redWine .container .redWine-b .redWine-bl .redWine-blt {
+  width: 212px;
+  height: 487px;
+}
+
+#redWine .container .redWine-b .redWine-bl .redWine-blb {
+  height: 142px;
+  width: 195px;
+  padding-top: 10px;
+  padding-left: 15px;
+  background: #F9F9F9;
+  border: 1px solid #ECECEC;
+}
+
+#redWine .container .redWine-b .redWine-bl .redWine-blb .redWine-box {
+  width: 178px;
+  height: 128px;
+}
+
+#redWine .container .redWine-b .redWine-bl .redWine-blb .redWine-box p {
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+#redWine .container .redWine-b .redWine-bl .redWine-blb .redWine-box p span {
+  padding-left: 5px;
+}
+
+#redWine .container .redWine-b .redWine-br {
+  height: 487px;
+  width: 986px;
+  float: left;
+}
+
+#redWine .container .redWine-b .redWine-br ul li {
+  display: inline-block;
+  height: 240px;
+  width: 192px;
+  border: 1px solid #ECECEC;
+}
+
+#redWine .container .redWine-b .redWine-brb {
+  margin-top: 15px;
+  height: 140px;
+  width: 984px;
+  float: left;
+}
+
+#redWine .container .redWine-b .redWine-brb h4 {
+  width: 964px;
+  padding-left: 20px;
+  font-size: 18px;
 }
 
 #foreignWine {
   width: 1400px;
   background: #F9F9F9;
+  position: relative;
 }
 
 #foreignWine .container {
   height: 702px;
-  background: yellow;
+}
+
+#foreignWine .container h3 {
+  height: 28px;
+  width: 1165px;
+  line-height: 30px;
+  font-size: 18px;
+  padding-top: 15px;
+  padding-left: 35px;
+}
+
+#foreignWine .container i {
+  position: absolute;
+  width: 33px;
+  height: 36px;
+  left: 95px;
+  top: 7px;
+  background: url(../img/3f.png) no-repeat;
+}
+
+#foreignWine .container .foreignWine-b {
+  height: 640px;
+  width: 1200px;
+  border-top: 1px solid #276594;
+}
+
+#foreignWine .container .foreignWine-b .foreignWine-bl {
+  width: 212px;
+  height: 640px;
+  float: left;
+}
+
+#foreignWine .container .foreignWine-b .foreignWine-bl .foreignWine-blt {
+  width: 212px;
+  height: 487px;
+}
+
+#foreignWine .container .foreignWine-b .foreignWine-bl .foreignWine-blb {
+  height: 142px;
+  width: 195px;
+  padding-top: 10px;
+  padding-left: 15px;
+  background: #F9F9F9;
+  border: 1px solid #ECECEC;
+}
+
+#foreignWine .container .foreignWine-b .foreignWine-bl .foreignWine-blb .foreignWine-box {
+  width: 178px;
+  height: 128px;
+}
+
+#foreignWine .container .foreignWine-b .foreignWine-bl .foreignWine-blb .foreignWine-box p {
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+#foreignWine .container .foreignWine-b .foreignWine-bl .foreignWine-blb .foreignWine-box p span {
+  padding-left: 5px;
+}
+
+#foreignWine .container .foreignWine-b .foreignWine-br {
+  height: 487px;
+  width: 986px;
+  float: left;
+}
+
+#foreignWine .container .foreignWine-b .foreignWine-br ul li {
+  display: inline-block;
+  height: 240px;
+  width: 192px;
+  border: 1px solid #ECECEC;
+}
+
+#foreignWine .container .foreignWine-b .foreignWine-brb {
+  margin-top: 15px;
+  height: 140px;
+  width: 984px;
+  float: left;
+}
+
+#foreignWine .container .foreignWine-b .foreignWine-brb h4 {
+  width: 964px;
+  padding-left: 20px;
+  font-size: 18px;
 }
 
 #healthWine {
   width: 1400px;
   background: #F9F9F9;
+  position: relative;
 }
 
 #healthWine .container {
   height: 702px;
-  background: blue;
+}
+
+#healthWine .container h3 {
+  height: 28px;
+  width: 1165px;
+  line-height: 30px;
+  font-size: 18px;
+  padding-top: 15px;
+  padding-left: 35px;
+}
+
+#healthWine .container i {
+  position: absolute;
+  width: 33px;
+  height: 36px;
+  left: 95px;
+  top: 7px;
+  background: url(../img/4f.png) no-repeat;
+}
+
+#healthWine .container .healthWine-b {
+  height: 640px;
+  width: 1200px;
+  border-top: 1px solid #6C9D0E;
+}
+
+#healthWine .container .healthWine-b .healthWine-bl {
+  width: 212px;
+  height: 640px;
+  float: left;
+}
+
+#healthWine .container .healthWine-b .healthWine-bl .healthWine-blt {
+  width: 212px;
+  height: 487px;
+}
+
+#healthWine .container .healthWine-b .healthWine-bl .healthWine-blb {
+  height: 142px;
+  width: 195px;
+  padding-top: 10px;
+  padding-left: 15px;
+  background: #F9F9F9;
+  border: 1px solid #ECECEC;
+}
+
+#healthWine .container .healthWine-b .healthWine-bl .healthWine-blb .healthWine-box {
+  width: 178px;
+  height: 128px;
+}
+
+#healthWine .container .healthWine-b .healthWine-bl .healthWine-blb .healthWine-box p {
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+#healthWine .container .healthWine-b .healthWine-bl .healthWine-blb .healthWine-box p span {
+  padding-left: 5px;
+}
+
+#healthWine .container .healthWine-b .healthWine-br {
+  height: 487px;
+  width: 986px;
+  float: left;
+}
+
+#healthWine .container .healthWine-b .healthWine-br ul li {
+  display: inline-block;
+  height: 240px;
+  width: 192px;
+  border: 1px solid #ECECEC;
+}
+
+#healthWine .container .healthWine-b .healthWine-brb {
+  margin-top: 15px;
+  height: 140px;
+  width: 984px;
+  float: left;
+}
+
+#healthWine .container .healthWine-b .healthWine-brb h4 {
+  width: 964px;
+  padding-left: 20px;
+  font-size: 18px;
 }
 
 #food {
   width: 1400px;
   background: #F9F9F9;
+  position: relative;
 }
 
 #food .container {
   height: 702px;
-  background: green;
+}
+
+#food .container h3 {
+  height: 28px;
+  width: 1165px;
+  line-height: 30px;
+  font-size: 18px;
+  padding-top: 15px;
+  padding-left: 35px;
+}
+
+#food .container i {
+  position: absolute;
+  width: 33px;
+  height: 36px;
+  left: 95px;
+  top: 7px;
+  background: url(../img/5f.png) no-repeat;
+}
+
+#food .container .food-b {
+  height: 640px;
+  width: 1200px;
+  border-top: 1px solid #C94B56;
+}
+
+#food .container .food-b .food-bl {
+  width: 212px;
+  height: 640px;
+  float: left;
+}
+
+#food .container .food-b .food-bl .food-blt {
+  width: 212px;
+  height: 487px;
+}
+
+#food .container .food-b .food-bl .food-blb {
+  height: 142px;
+  width: 195px;
+  padding-top: 10px;
+  padding-left: 15px;
+  background: #F9F9F9;
+  border: 1px solid #ECECEC;
+}
+
+#food .container .food-b .food-bl .food-blb .food-box {
+  width: 178px;
+  height: 128px;
+}
+
+#food .container .food-b .food-bl .food-blb .food-box p {
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+#food .container .food-b .food-bl .food-blb .food-box p span {
+  padding-left: 5px;
+}
+
+#food .container .food-b .food-br {
+  height: 487px;
+  width: 986px;
+  float: left;
+}
+
+#food .container .food-b .food-br ul li {
+  display: inline-block;
+  height: 240px;
+  width: 192px;
+  border: 1px solid #ECECEC;
+}
+
+#food .container .food-b .food-brb {
+  margin-top: 15px;
+  height: 140px;
+  width: 984px;
+  float: left;
+}
+
+#food .container .food-b .food-brb h4 {
+  width: 964px;
+  padding-left: 20px;
+  font-size: 18px;
 }
 
 #contentThree {
@@ -115,14 +649,6 @@
   padding: 0 5px 0 5px;
 }
 
-#contentThree .container .contentThree-t ul li .active {
-  color: red;
-}
-
-#contentThree .container .contentThree-t .active {
-  color: red;
-}
-
 #contentThree .container .contentThree-b {
   padding-top: 14px;
   padding-left: 18px;
@@ -145,8 +671,9 @@
   margin-left: 10px;
 }
 
-.contentThree-t ul li .active {
-  background: yellow;
+.contentThree-t ul li a:hover {
+  color: #fff;
+  background-color: red;
 }
 
 #Boutique {

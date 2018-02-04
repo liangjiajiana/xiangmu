@@ -1,0 +1,124 @@
+#headed .container {
+  height: 88px;
+}
+
+#headed .container .headed-l {
+  width: 265px;
+  height: 74px;
+  float: left;
+  padding-top: 14px;
+}
+
+#headed .container .headed-l .headed-nav {
+  padding-top: 16px;
+  height: 40px;
+  width: 105px;
+  float: left;
+  margin-left: 10px;
+  border-left: 2px solid #E1DDDE;
+}
+
+#headed .container .headed-l .headed-nav p {
+  font-size: 16px;
+  padding-left: 7px;
+}
+
+#headed .container .headed-r {
+  padding-top: 46px;
+  height: 42px;
+  width: 350px;
+  float: right;
+  position: relative;
+}
+
+#headed .container .headed-r ul li {
+  font-size: 12px;
+  float: left;
+  padding-right: 40px;
+}
+
+#headed .container .headed-r ul i {
+  position: absolute;
+  width: 17px;
+  height: 16px;
+  left: 270px;
+  top: 46px;
+  background: url(../img/88.png) no-repeat;
+}
+
+.setting {
+  position: relative;
+  margin-bottom: 30px;
+}
+
+.jx-contentbd {
+  right: 130px;
+  top: 30px;
+  width: 313px;
+  height: 389px;
+  background: #fff;
+  position: absolute;
+  padding-top: 15px;
+  padding-left: 36px;
+}
+
+.jx-contentbd .jx-box {
+  width: 272px;
+  height: 380px;
+}
+
+.jx-contentbd .jx-box .jx-top {
+  line-height: 38px;
+  height: 37px;
+  width: 272px;
+  border-bottom: 1px solid #E9E9E9;
+}
+
+.jx-contentbd .jx-box .jx-top p {
+  font-size: 14px;
+  padding-left: 10px;
+  color: #FF2B05;
+}
+
+.jx-contentbd .jx-box .jx-top p span {
+  padding-left: 54px;
+}
+
+.jx-contentbd .jx-box .jx-c p input {
+  width: 270px;
+  height: 39px;
+  border: 1px solid #E9E9E9;
+  margin-bottom: 13px;
+}
+
+.jx-contentbd .jx-box .jx-c p .btn {
+  border-radius: 3px;
+  text-align: center;
+  width: 272px;
+  height: 39px;
+  color: #fff;
+  background: #FF2B05;
+}
+
+.jx-contentbd .jx-box .jx-c p .code {
+  border-radius: 3px;
+  height: 39px;
+  width: 100px;
+  border: 1px solid #ccc;
+  margin-bottom: 10px;
+  background: #FF2B05;
+  color: #fff;
+}
+
+#foot .container {
+  height: 150px;
+}
+
+#foot .container .footbox {
+  text-align: center;
+  padding-top: 30px;
+}
+
+#foot .container .footbox p {
+  margin-bottom: 10px;
+}

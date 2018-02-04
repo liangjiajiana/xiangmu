@@ -1,72 +1,548 @@
 #carousel{
-    width: 1400px;
+    width: 1410px;
     height: 472px;
-    background:blue;
 }
 #lay1{
      width: 1400px;
-    background: #F9F9F9;
+       background: #F9F9F9;
     .container{
         height: 500px;
-        background:green;
+      .IndexTabbox{
+        height: 500px;
+        width: 926px;
+         float:left;
+        .IndexNav{
+           height: 38px;
+          ul{
+            li{
+              float:left;
+              width: 183px;
+              height: 38px;
+              background: #F9F9F9;
+              line-height:38px;
+              text-align:center;
+              font-size:16px;
+              border:1px solid #ccc;
+            }
+            .jiage{
+              padding-left:18px;
+            }
+          }
+        }
+      }
+      .Indexlist{
+        height: 461px;
+        width: 926px;
+        position:relative;
+        ul{
+          padding-top:25px;
+          position:absolute;
+          left:0;
+          top:0;
+          li{
+            width: 177px;
+            height: 195px;
+            display:inline-block;
+            margin-left:2px;
+          }
+        }
+      }
     }
+}
+#lay1 .container .Indexright{
+  float:left;
+  height: 479px;
+  width: 271px;
+  border-left:1px solid #ECECEC;
+  .Indexright-t{
+    height: 140px;
+    background:#fff;
+    border-bottom:1px solid #ECECEC;
+    ul{
+      li{
+        float:left;
+        height: 38px;
+        line-height:38px;
+        text-align:center;
+        width: 133px;
+        font-size:16px;
+        border:1px solid #ECECEC;
+      }
+    }
+    p{
+      margin-bottom:15px;
+      padding-left:18px;
+      span{
+        padding-left:22px;
+      }
+    }
+  }
+  .Indexright-c{
+    width: 269px;
+    height: 160px;
+    margin-top:7px;
+    border:1px solid #ECECEC;
+    border-left:0px;
+  }
+  .Indexright-b{
+    width: 269px;
+    height: 160px;
+    margin-top:7px;
+    border:1px solid #ECECEC;
+    border-left:0px;
+  }
 }
 #advertising{
      width: 1400px;
     background: #F9F9F9;
     .container{
         padding-top:22px;
-        height: 180px;
+        height: 137px;
         background:#F9F9F9;
     }
 }
 #raceListWrap{
      width: 1400px;
     background: #F9F9F9;
+      position:relative;
     .container{
         height: 257px;
-        background:pink;
+      h3{
+        height: 40px;
+        background:#F9F9F9;
+        width: 1170px;
+        font-size:20px;
+        padding-left:30px;
+      }
+      i{
+        position:absolute;
+        width: 28px;
+        height: 28px;
+        left:99px;
+        top:-4px;
+        background:url(../img/shizhong.png) no-repeat;
+      }
+      .raceListWrap-b{
+        height: 213px;
+        width: 1200px;
+        border:1px solid #ECECEC;
+      }
     }
 }
 #whiteWine{ 
      width: 1400px;
     background: #F9F9F9;
+    position:relative;
    .container{
       height: 702px;
-      background:blue;
+      h3{
+        height: 28px;
+        width: 1165px;
+        line-height:30px;
+        font-size:18px;
+        padding-top:15px;
+        padding-left:35px;
+      }
+      i{
+        position:absolute;
+        width: 33px;
+        height: 36px;
+        left:95px;
+        top:7px;
+        background:url(../img/1f.png) no-repeat;
+      }
+      .whiteWine-b{
+        height: 640px;
+        width: 1200px;
+        border-top:1px solid #C94B56;
+        .whiteWine-bl{
+          width: 212px;
+          height: 640px;
+          float:left;
+          // background:yellow;
+          .whiteWine-blt{
+            width: 212px;
+            height: 487px;
+          }
+          .whiteWine-blb{
+            height: 142px;
+            width: 195px;
+            padding-top:10px;
+            padding-left:15px;
+            background:#F9F9F9;
+            border:1px solid #ECECEC;
+            .whiteWine-box{
+              width: 178px;
+              height: 128px;
+              p{
+                font-size:14px;
+                margin-bottom:10px;
+                span{
+                  padding-left:5px;
+                }
+              }
+            }
+          }
+        }
+        .whiteWine-br{
+          height: 487px;
+          width: 986px;
+          float:left;
+          ul{
+            li{
+              display:inline-block;
+              height: 240px;
+              width: 192px;
+              border:1px solid #ECECEC;
+            }
+          }
+        }
+        .whiteWine-brb{
+          margin-top:15px;
+          height: 140px;
+          width: 984px;
+          float:left;
+          // background:pink;
+          h4{
+            width: 964px;
+            padding-left:20px;
+            font-size:18px;
+          }
+        }
+      }
     }  
 }
-#redWine{
-    width: 1400px;
+#redWine{ 
+     width: 1400px;
     background: #F9F9F9;
-    .container{
+    position:relative;
+   .container{
       height: 702px;
-      background:pink;
-    }
+      h3{
+        height: 28px;
+        width: 1165px;
+        line-height:30px;
+        font-size:18px;
+        padding-top:15px;
+        padding-left:35px;
+      }
+      i{
+        position:absolute;
+        width: 33px;
+        height: 36px;
+        left:95px;
+        top:7px;
+        background:url(../img/2f.png) no-repeat;
+      }
+      .redWine-b{
+        height: 640px;
+        width: 1200px;
+        border-top:1px solid #C37632;
+        .redWine-bl{
+          width: 212px;
+          height: 640px;
+          float:left;
+          // background:yellow;
+          .redWine-blt{
+            width: 212px;
+            height: 487px;
+          }
+          .redWine-blb{
+            height: 142px;
+            width: 195px;
+            padding-top:10px;
+            padding-left:15px;
+            background:#F9F9F9;
+            border:1px solid #ECECEC;
+            .redWine-box{
+              width: 178px;
+              height: 128px;
+              p{
+                font-size:14px;
+                margin-bottom:10px;
+                span{
+                  padding-left:5px;
+                }
+              }
+            }
+          }
+        }
+        .redWine-br{
+          height: 487px;
+          width: 986px;
+          float:left;
+          ul{
+            li{
+              display:inline-block;
+              height: 240px;
+              width: 192px;
+              border:1px solid #ECECEC;
+            }
+          }
+        }
+        .redWine-brb{
+          margin-top:15px;
+          height: 140px;
+          width: 984px;
+          float:left;
+          // background:pink;
+          h4{
+            width: 964px;
+            padding-left:20px;
+            font-size:18px;
+          }
+        }
+      }
+    }  
 }
-#foreignWine{
-    width: 1400px;
+#foreignWine{ 
+     width: 1400px;
     background: #F9F9F9;
-    .container{
+    position:relative;
+   .container{
       height: 702px;
-      background:yellow;
-    }
+      h3{
+        height: 28px;
+        width: 1165px;
+        line-height:30px;
+        font-size:18px;
+        padding-top:15px;
+        padding-left:35px;
+      }
+      i{
+        position:absolute;
+        width: 33px;
+        height: 36px;
+        left:95px;
+        top:7px;
+        background:url(../img/3f.png) no-repeat;
+      }
+      .foreignWine-b{
+        height: 640px;
+        width: 1200px;
+        border-top:1px solid #276594;
+        .foreignWine-bl{
+          width: 212px;
+          height: 640px;
+          float:left;
+          // background:yellow;
+          .foreignWine-blt{
+            width: 212px;
+            height: 487px;
+          }
+          .foreignWine-blb{
+            height: 142px;
+            width: 195px;
+            padding-top:10px;
+            padding-left:15px;
+            background:#F9F9F9;
+            border:1px solid #ECECEC;
+            .foreignWine-box{
+              width: 178px;
+              height: 128px;
+              p{
+                font-size:14px;
+                margin-bottom:10px;
+                span{
+                  padding-left:5px;
+                }
+              }
+            }
+          }
+        }
+        .foreignWine-br{
+          height: 487px;
+          width: 986px;
+          float:left;
+          ul{
+            li{
+              display:inline-block;
+              height: 240px;
+              width: 192px;
+              border:1px solid #ECECEC;
+            }
+          }
+        }
+        .foreignWine-brb{
+          margin-top:15px;
+          height: 140px;
+          width: 984px;
+          float:left;
+          // background:pink;
+          h4{
+            width: 964px;
+            padding-left:20px;
+            font-size:18px;
+          }
+        }
+      }
+    }  
 }
-#healthWine{
-    width: 1400px;
+#healthWine{ 
+     width: 1400px;
     background: #F9F9F9;
-    .container{
+    position:relative;
+   .container{
       height: 702px;
-      background:blue;
-    }
+      h3{
+        height: 28px;
+        width: 1165px;
+        line-height:30px;
+        font-size:18px;
+        padding-top:15px;
+        padding-left:35px;
+      }
+      i{
+        position:absolute;
+        width: 33px;
+        height: 36px;
+        left:95px;
+        top:7px;
+        background:url(../img/4f.png) no-repeat;
+      }
+      .healthWine-b{
+        height: 640px;
+        width: 1200px;
+        border-top:1px solid #6C9D0E;
+        .healthWine-bl{
+          width: 212px;
+          height: 640px;
+          float:left;
+          // background:yellow;
+          .healthWine-blt{
+            width: 212px;
+            height: 487px;
+          }
+          .healthWine-blb{
+            height: 142px;
+            width: 195px;
+            padding-top:10px;
+            padding-left:15px;
+            background:#F9F9F9;
+            border:1px solid #ECECEC;
+            .healthWine-box{
+              width: 178px;
+              height: 128px;
+              p{
+                font-size:14px;
+                margin-bottom:10px;
+                span{
+                  padding-left:5px;
+                }
+              }
+            }
+          }
+        }
+        .healthWine-br{
+          height: 487px;
+          width: 986px;
+          float:left;
+          ul{
+            li{
+              display:inline-block;
+              height: 240px;
+              width: 192px;
+              border:1px solid #ECECEC;
+            }
+          }
+        }
+        .healthWine-brb{
+          margin-top:15px;
+          height: 140px;
+          width: 984px;
+          float:left;
+          // background:pink;
+          h4{
+            width: 964px;
+            padding-left:20px;
+            font-size:18px;
+          }
+        }
+      }
+    }  
 }
-#food{
-    width: 1400px;
+#food{ 
+     width: 1400px;
     background: #F9F9F9;
-    .container{
+    position:relative;
+   .container{
       height: 702px;
-      background:green;
-    }
+      h3{
+        height: 28px;
+        width: 1165px;
+        line-height:30px;
+        font-size:18px;
+        padding-top:15px;
+        padding-left:35px;
+      }
+      i{
+        position:absolute;
+        width: 33px;
+        height: 36px;
+        left:95px;
+        top:7px;
+        background:url(../img/5f.png) no-repeat;
+      }
+      .food-b{
+        height: 640px;
+        width: 1200px;
+        border-top:1px solid #C94B56;
+        .food-bl{
+          width: 212px;
+          height: 640px;
+          float:left;
+          // background:yellow;
+          .food-blt{
+            width: 212px;
+            height: 487px;
+          }
+          .food-blb{
+            height: 142px;
+            width: 195px;
+            padding-top:10px;
+            padding-left:15px;
+            background:#F9F9F9;
+            border:1px solid #ECECEC;
+            .food-box{
+              width: 178px;
+              height: 128px;
+              p{
+                font-size:14px;
+                margin-bottom:10px;
+                span{
+                  padding-left:5px;
+                }
+              }
+            }
+          }
+        }
+        .food-br{
+          height: 487px;
+          width: 986px;
+          float:left;
+          ul{
+            li{
+              display:inline-block;
+              height: 240px;
+              width: 192px;
+              border:1px solid #ECECEC;
+            }
+          }
+        }
+        .food-brb{
+          margin-top:15px;
+          height: 140px;
+          width: 984px;
+          float:left;
+          // background:pink;
+          h4{
+            width: 964px;
+            padding-left:20px;
+            font-size:18px;
+          }
+        }
+      }
+    }  
 }
 #contentThree{
     width: 1400px;
@@ -89,15 +565,9 @@
                     color:#666666;
                     text-align:center;
                     padding:0 5px 0 5px;
-                }
-                .active{
-                    color:red;
-                }    
+                }   
             }
         }
-         .active{
-            color:red;
-         }
        }
         .contentThree-b{
             padding-top:14px;
@@ -120,8 +590,9 @@
         }
     }
 }
- .contentThree-t ul li .active{
-    background:yellow;
+ .contentThree-t ul li a:hover{
+    color:#fff;
+    background-color:red;
  }
 #Boutique{
     width: 1400px;
