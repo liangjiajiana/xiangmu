@@ -1,0 +1,28 @@
+#nav1{
+    margin-top:15px;
+}
+#dGuid{
+   .container{
+    height: 40px;
+    background:pink;
+    line-height:40px;
+    ul{
+        li{
+            float:left;
+            padding-left:10px;
+            padding-right:10px;
+        }
+    }
+   } 
+}
+#dIntro{
+    .container{
+        height: 592px;
+        background:yellow;
+        .show-pic{
+            height: 420px;
+            width: 420px;
+            background:green;
+        }
+    }
+}

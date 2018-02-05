@@ -149,6 +149,13 @@
   border: 1px solid #ECECEC;
 }
 
+#raceListWrap .container .raceListWrap-b ul li {
+  display: inline-block;
+  width: 196px;
+  height: 213px;
+  border-right: 1px solid #ccc;
+}
+
 #whiteWine {
   width: 1400px;
   background: #F9F9F9;

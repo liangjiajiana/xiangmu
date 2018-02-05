@@ -126,6 +126,14 @@
         height: 213px;
         width: 1200px;
         border:1px solid #ECECEC;
+        ul{
+          li{
+            display:inline-block;
+            width: 196px;
+            height: 213px;
+            border-right:1px solid #ccc;
+          }
+        }
       }
     }
 }

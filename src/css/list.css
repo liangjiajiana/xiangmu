@@ -1,0 +1,369 @@
+#srp .container .hostlist {
+  margin-top: 10px;
+  float: left;
+  width: 199px;
+  border: 1px solid #DDDDDD;
+}
+
+#srp .container .hostlist h3 {
+  line-height: 42px;
+  height: 42px;
+  width: 193px;
+  background: #FAFAFA;
+  font-size: 14px;
+  color: #666666;
+  padding-left: 6px;
+  border-bottom: 1px solid #DDDDDD;
+}
+
+#srp .container .hostlist .hotsaleul {
+  border-bottom: 1px solid #ccc;
+  width: 199px;
+}
+
+#srp .container .hostlist .hotsaleul li {
+  height: 262px;
+  width: 199px;
+  font-size: 14px;
+}
+
+#srp .container .hostlist .hotsaleul li p {
+  padding-left: 10px;
+}
+
+#srp .container .hostlist .hotsaleul li .price {
+  color: #E90012;
+}
+
+#srp .container .hostlist .look {
+  border-top: 0px;
+  border-bottom: 1px solid #ccc;
+  width: 199px;
+}
+
+#srp .container .hostlist .look li {
+  height: 262px;
+  width: 199px;
+  font-size: 14px;
+}
+
+#srp .container .hostlist .look li p {
+  padding-left: 10px;
+}
+
+#srp .container .hostlist .look li .price {
+  color: #E90012;
+}
+
+#srp .container .hostlist .ranking-list li {
+  line-height: 36px;
+  height: 36px;
+}
+
+#srp .container .hostlist .history {
+  height: 1300px;
+}
+
+#srp .container .main-srp {
+  margin-top: 10px;
+  border: 1px solid #ccc;
+  border-top: 2px solid red;
+  margin-left: 10px;
+  width: 980px;
+  float: left;
+}
+
+#srp .container .main-srp .main-srpt {
+  height: 50px;
+  width: 980px;
+}
+
+#srp .container .main-srp .main-srpt .crumb {
+  height: 50px;
+  line-height: 50px;
+  float: left;
+  width: 500px;
+}
+
+#srp .container .main-srp .main-srpt .crumb ul li {
+  position: relative;
+  float: left;
+  padding-left: 30px;
+  padding-right: 10px;
+}
+
+#srp .container .main-srp .main-srpt .crumb ul li input {
+  border: 1px solid #ccc;
+  height: 22px;
+  width: 123px;
+}
+
+#srp .container .main-srp .main-srpt .crumb ul li i {
+  position: absolute;
+  top: 17px;
+  left: 7px;
+  width: 14px;
+  height: 15px;
+  background: url(../img/zheng.png) no-repeat;
+}
+
+#srp .container .main-srp .main-srpt .crumb ul li .jing {
+  position: absolute;
+  width: 19px;
+  height: 19px;
+  left: 129px;
+  top: 16px;
+  background: url(../img/jing.png) no-repeat;
+}
+
+#srp .container .main-srp .main-srpt .topNum {
+  float: right;
+  height: 50px;
+  line-height: 50px;
+  color: red;
+}
+
+#srp .container .main-srp .main-srpc {
+  height: 275px;
+  width: 979px;
+  background: #DDDDDD;
+  border: 1px dashed #ccc;
+}
+
+#srp .container .main-srp .brands {
+  height: 97px;
+  width: 979px;
+  border-bottom: 1px dashed #ccc;
+}
+
+#srp .container .main-srp .brands .title {
+  padding-top: 13px;
+  padding-left: 13px;
+  float: left;
+  width: 101px;
+  background: #F6F6F6;
+  height: 84px;
+  position: relative;
+  color: red;
+}
+
+#srp .container .main-srp .brands .title input {
+  margin-top: 5px;
+  height: 21px;
+  width: 84px;
+  border: 1px solid #ccc;
+  background: #fff;
+}
+
+#srp .container .main-srp .brands .title i {
+  position: absolute;
+  width: 19px;
+  height: 19px;
+  left: 77px;
+  top: 38px;
+  background: url(../img/jing.png) no-repeat;
+}
+
+#srp .container .main-srp .frameC {
+  padding-top: 15px;
+  float: left;
+  height: 82px;
+  width: 864px;
+  background: #FFFFFF;
+}
+
+#srp .container .main-srp .frameC ul {
+  float: left;
+  margin-right: 50px;
+}
+
+#srp .container .main-srp .address {
+  height: 61px;
+  width: 979px;
+  border-bottom: 1px dashed #ccc;
+}
+
+#srp .container .main-srp .address .title {
+  width: 101px;
+  height: 48px;
+  float: left;
+  background: #F6F6F6;
+  padding-left: 13px;
+  padding-top: 13px;
+  color: red;
+}
+
+#srp .container .main-srp .address .address-c {
+  float: left;
+  height: 61px;
+  width: 864px;
+  background: #FFFFFF;
+}
+
+#srp .container .main-srp .address .address-c ul {
+  height: 29px;
+}
+
+#srp .container .main-srp .address .address-c ul li {
+  float: left;
+  margin-left: 15px;
+}
+
+#srp .container .main-srp .option {
+  height: 61px;
+  width: 979px;
+  border-bottom: 1px dashed #ccc;
+}
+
+#srp .container .main-srp .option .title {
+  width: 101px;
+  height: 48px;
+  float: left;
+  background: #F6F6F6;
+  padding-left: 13px;
+  padding-top: 13px;
+  color: red;
+}
+
+#srp .container .main-srp .option .option-c {
+  padding-top: 15px;
+  float: left;
+  height: 46px;
+  width: 864px;
+  background: #F6F6F6;
+}
+
+#srp .container .main-srp .option .option-c input {
+  height: 19px;
+  width: 85px;
+  border: 1px solid #ccc;
+  padding-left: 10px;
+}
+
+#srp .container .order {
+  height: 75px;
+  width: 980px;
+  border: 1px solid #ccc;
+  float: left;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+
+#srp .container .order .order-t {
+  height: 36px;
+  width: 980px;
+  line-height: 37px;
+  text-align: center;
+  border-bottom: 1px solid #ccc;
+}
+
+#srp .container .order .order-t ul li {
+  float: left;
+  padding-left: 18px;
+  padding-right: 18px;
+  border-right: 1px solid #ccc;
+}
+
+#srp .container .order .order-t ul li input {
+  width: 60px;
+  height: 24px;
+  border: 1px solid #ccc;
+}
+
+#srp .container .order .order-t ul li button {
+  width: 60px;
+  height: 24px;
+  border: 1px solid #ccc;
+  background: #fff;
+}
+
+#srp .container .order .order-b {
+  line-height: 34px;
+  width: 980px;
+  height: 34px;
+  background: #FFFDF1;
+  position: relative;
+}
+
+#srp .container .order .order-b p {
+  padding-left: 5px;
+}
+
+#srp .container .order .order-b p input {
+  width: 161px;
+  height: 21px;
+  border: 1px solid #ccc;
+  margin-left: 5px;
+}
+
+#srp .container .order .order-b p .gouxuan {
+  width: 13px;
+  height: 13px;
+  margin-right: 5px;
+}
+
+#srp .container .datalist {
+  margin-top: 10px;
+  margin-left: 10px;
+  float: left;
+  width: 982px;
+}
+
+#srp .container .datalist .goodslist li {
+  display: inline-block;
+  width: 231px;
+  height: 414px;
+  margin-right: 11px;
+}
+
+#srp .container .datalist .goodslist li .price {
+  color: red;
+  padding-left: 35px;
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+
+#srp .container .datalist .goodslist li .name {
+  padding-left: 35px;
+  color: red;
+}
+
+#srp .container .page {
+  height: 30px;
+  width: 300px;
+  float: left;
+  margin-left: 640px;
+  margin-top: 30px;
+}
+
+#srp .container .page span {
+  display: inline-block;
+  width: 40px;
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
+  background-color: #C41921;
+  color: #fff;
+}
+
+#srp .container .searchBottom {
+  margin-top: 60px;
+  margin-left: 200px;
+  float: left;
+}
+
+#srp .container .searchBottom input {
+  width: 369px;
+  height: 34px;
+  border: 1px solid #ccc;
+  vertical-align: middle;
+}
+
+#srp .container .searchBottom button {
+  height: 36px;
+  width: 71px;
+  line-height: 36px;
+  text-align: center;
+  border: 1px solid #ccc;
+  vertical-align: middle;
+}

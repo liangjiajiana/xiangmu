@@ -84,7 +84,7 @@
 }
 .navigation{
     .navWrap{
-        width: 1400px;
+        width: 1423px;
         height: 34px;
         background:#8F0000;
     }
@@ -101,7 +101,7 @@
             position:relative;
             padding-left:45px;
             .Menu1{
-                // display:none; 
+                display:none; 
                 // background: green;
                 z-index:1;
                 position:absolute;
@@ -243,5 +243,6 @@
 .navWrap .Menu1>li:hover .Menu2{
      display:block;
 }
-
-
+.navWrap .Menu:hover .Menu1{
+     display:block;
+}

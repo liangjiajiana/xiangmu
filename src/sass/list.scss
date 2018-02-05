@@ -1,0 +1,334 @@
+#srp{
+    .container{
+        .hostlist{
+           margin-top:10px;
+           float:left;
+           width: 199px;
+           // background:pink;
+           border:1px solid #DDDDDD;
+           h3{
+               line-height:42px;
+               height: 42px;
+               width: 193px;
+               background:#FAFAFA;
+               font-size:14px;
+               color:#666666;
+               padding-left:6px;
+               border-bottom:1px solid #DDDDDD;
+           }
+           .hotsaleul{
+                border-bottom:1px solid #ccc;
+                width: 199px;
+                // background:pink;
+                li{
+                    height: 262px;
+                    width: 199px;
+                     font-size:14px;
+                     p{
+                        padding-left:10px;
+                     }
+                    .price{
+                        color:#E90012;
+                    }
+                }
+           }
+            .look{
+                border-top:0px;
+                border-bottom:1px solid #ccc;
+                width: 199px;
+                li{
+                    height: 262px;
+                    width: 199px;
+                     font-size:14px;
+                     p{
+                        padding-left:10px;
+                     }
+                    .price{
+                        color:#E90012;
+                    }
+                }
+            }
+           .ranking-list{
+                li{
+                    line-height:36px;
+                    height: 36px;
+                }
+            }
+           .history{
+                height: 1300px;
+           }
+        }
+        .main-srp{
+            margin-top:10px;
+            border:1px solid #ccc;
+            border-top:2px solid red;
+            margin-left:10px;
+            width: 980px;
+            float:left;
+            .main-srpt{
+                height: 50px;
+                width: 980px;
+                .crumb{
+                    height: 50px;
+                    line-height:50px;
+                    float:left;
+                    width: 500px;
+                    ul{
+                        li{
+                            position:relative;
+                            float:left;
+                            padding-left:30px;
+                            padding-right:10px;
+                            input{
+                                border:1px solid #ccc;
+                                height: 22px;
+                                width: 123px;
+                            }
+                            i{
+                                position:absolute;
+                                top:17px;
+                                left:7px;
+                                width: 14px;
+                                height: 15px;
+                                background:url(../img/zheng.png) no-repeat;
+                            }
+                            .jing{
+                                position:absolute;
+                                width: 19px;
+                                height: 19px;
+                                left:129px;
+                                top:16px;
+                                background:url(../img/jing.png)no-repeat;
+                            }
+                        }
+                    }
+                }
+                .topNum{
+                   float:right; 
+                   height: 50px;
+                   line-height:50px;
+                   color:red;
+                }
+            }
+            .main-srpc{
+                height: 275px;
+                width: 979px;
+                background:#DDDDDD;
+                border:1px dashed #ccc;
+            }
+            .brands{
+                height: 97px;
+                width: 979px;
+                border-bottom:1px dashed #ccc;
+                .title{
+                    padding-top:13px;
+                     padding-left:13px;
+                    float:left;
+                    width: 101px;
+                    background:#F6F6F6;
+                    height: 84px;
+                    position:relative;
+                    color:red;
+                    input{
+                        margin-top:5px;
+                        height: 21px;
+                        width: 84px;
+                        border:1px solid #ccc;
+                        background:#fff;
+                    }
+                    i{
+                        position:absolute;
+                        width: 19px;
+                        height: 19px;
+                        left:77px;
+                        top:38px;
+                        background:url(../img/jing.png)no-repeat;
+                    }
+                }
+            }
+            .frameC{
+                padding-top:15px;
+                float:left;
+                height: 82px;
+                width: 864px;
+                background: #FFFFFF;
+                ul{
+                    float:left;
+                    margin-right:50px;
+                }
+            }
+            .address{
+                height: 61px;
+                width: 979px;
+                border-bottom:1px dashed #ccc;
+                .title{
+                    width: 101px;
+                    height: 48px;
+                    float:left;
+                   background:#F6F6F6;
+                    padding-left:13px;
+                    padding-top:13px;
+                    color:red;
+                }
+                .address-c{
+                    float:left;
+                    height: 61px;
+                    width: 864px;
+                    background: #FFFFFF;
+                    ul{
+                      height: 29px;
+                        li{
+                             float:left;
+                             margin-left:15px;
+                        }
+                    }
+                }
+            }
+            .option{
+                height: 61px;
+                width: 979px;
+                border-bottom:1px dashed #ccc;
+                .title{
+                    width: 101px;
+                    height: 48px;
+                    float:left;
+                   background:#F6F6F6;
+                    padding-left:13px;
+                    padding-top:13px;
+                    color:red;
+                }
+                .option-c{
+                    padding-top:15px;
+                    float:left;
+                    height: 46px;
+                    width: 864px;
+                    background: #F6F6F6;
+                    input{
+                        height: 19px;
+                        width: 85px;
+                        border:1px solid #ccc;
+                        padding-left:10px;
+                    }
+                }
+            }
+        }
+    }
+}
+#srp .container{
+    .order{
+        height: 75px;
+        width: 980px;
+        border:1px solid #ccc;
+        float:left;
+        margin-left:10px;
+        margin-top:10px;
+        .order-t{
+            height: 36px;
+            width: 980px;
+            line-height:37px;
+             text-align:center;
+             border-bottom:1px solid #ccc;
+            ul{
+                li{
+                    float:left;
+                    padding-left:18px;
+                    padding-right:18px;
+                    border-right:1px solid #ccc;
+                    input{
+                        width: 60px;
+                        height: 24px;
+                        border:1px solid #ccc;
+                    }
+                    button{
+                        width: 60px;
+                        height: 24px;
+                        border:1px solid #ccc;
+                        background: #fff;
+                    }
+                }
+            }
+        }
+        .order-b{
+            line-height:34px;
+            width: 980px;
+            height: 34px;
+            background: #FFFDF1;
+            position:relative;
+            p{
+                padding-left:5px;
+                input{
+                    width: 161px;
+                    height: 21px;
+                    border:1px solid#ccc;
+                    margin-left:5px;
+                }
+                .gouxuan{
+                    width: 13px;
+                    height: 13px;
+                    margin-right:5px;
+                }
+            }
+        }
+    }
+    .datalist{
+        margin-top:10px;
+        margin-left:10px;
+        float:left;
+        width: 982px;
+        // background:pink;
+        .goodslist{
+            li{
+               display:inline-block;
+               width: 231px;
+               height: 414px;
+               // background:yellow;
+               margin-right:11px; 
+                .price{
+                    color:red;
+                    padding-left:35px;
+                    font-size:18px;
+                    margin-bottom:5px;
+                }
+                .name{
+                    padding-left:35px;
+                    color:red;
+                }
+            }
+        }
+    }
+    .page{
+        height: 30px;
+        width: 300px;
+        float:left;
+        margin-left:640px;
+        margin-top:30px;
+        span{
+            display:inline-block;
+            width:40px;
+            height: 30px;
+            line-height:30px;
+            text-align: center;
+            background-color:#C41921;
+            color:#fff;
+        }
+    }
+    .searchBottom{
+        margin-top:60px;
+        margin-left:200px;
+        float:left;
+        input{
+           width: 369px;
+           height: 34px;
+            border:1px solid #ccc;
+            vertical-align: middle;
+        }
+        button{
+            height: 36px;
+            width: 71px;
+            line-height:36px;
+            text-align:center;
+            border:1px solid #ccc;
+            vertical-align: middle;
+        }
+    }
+}
