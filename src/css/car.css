@@ -1,0 +1,145 @@
+#headed {
+  background: #F6F6F6;
+}
+
+#headed .container {
+  line-height: 26px;
+  height: 26px;
+}
+
+#headed .container .headed-l {
+  float: left;
+}
+
+#headed .container .headed-l li {
+  float: left;
+  padding-left: 5px;
+}
+
+#headed .container .headed-r {
+  float: right;
+}
+
+#headed .container .headed-r li {
+  float: left;
+  padding-right: 10px;
+}
+
+#hint {
+  margin-top: 40px;
+}
+
+#hint .container {
+  width: 1108px;
+  position: relative;
+  padding-left: 92px;
+  height: 36px;
+  line-height: 36px;
+  background: #FFFCF8;
+}
+
+#hint i {
+  position: absolute;
+  width: 18px;
+  height: 28px;
+  left: 68px;
+  top: 5px;
+  background: url(../img/deng.png) no-repeat;
+}
+
+#car-box .container .car-t {
+  padding-top: 10px;
+  height: 65px;
+  width: 1200px;
+  font-size: 16px;
+}
+
+#car-box .container .car-t .ctab-T {
+  line-height: 40px;
+  height: 40px;
+  width: 1180;
+  padding-left: 20px;
+  border: 1px dashed #ccc;
+}
+
+#car-box .container .car-t .ctab-T .all {
+  width: 13px;
+  height: 13px;
+  padding-left: 10px;
+}
+
+#car-box .container .car-t .ctab-T .message {
+  padding-left: 104px;
+}
+
+#car-box .container .car-t .ctab-T .univalence {
+  padding-left: 200px;
+}
+
+#car-box .container .car-t .ctab-T .gold {
+  padding-left: 130px;
+}
+
+#car-box .container .car-t .ctab-T .count {
+  padding-left: 140px;
+}
+
+#car-box .container .car-t .ctab-T .handle {
+  padding-left: 150px;
+}
+
+#car-box .container .shop {
+  font-size: 18px;
+  margin-bottom: 3px;
+}
+
+#car-box .container .carlist {
+  height: 400px;
+}
+
+#car-box .container .carlist li {
+  border: 1px solid #ccc;
+  border-top: 2px solid #ccc;
+  height: 122px;
+  width: 1198px;
+  position: relative;
+  margin-bottom: 3px;
+  background: #F5F5F5;
+}
+
+#car-box .container .carlist li .Choice {
+  width: 13px;
+  height: 13px;
+  position: absolute;
+  left: 20px;
+  top: 20px;
+}
+
+#car-box .container .carlist li .goods-Info {
+  margin-left: 40px;
+  width: 1100px;
+  height: 124px;
+}
+
+#car-box .container .carlist li .goods-Info .name {
+  display: inline-block;
+}
+
+#car-box .container .carlist li .goods-Info .pirce {
+  font-size: 16px;
+  padding-left: 240px;
+  color: #f90;
+}
+
+#car-box .container .carlist li .goods-Info .species {
+  font-size: 16px;
+  padding-left: 126px;
+  color: #f90;
+}
+
+#car-box .container .carlist li .goods-Info .jian {
+  display: inline-block;
+  width: 19px;
+  height: 23px;
+  border: 1px solid #ccc;
+}

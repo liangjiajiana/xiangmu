@@ -4,7 +4,7 @@
 		var defaults = {
 			// 放大区域的宽高
 			width:400,
-			height:300,
+			height:400,
 
 			// 显示位置
 			position:'right',//left,top,bottom,right
@@ -42,7 +42,7 @@
 				var left,top;
 				if(opt.position === 'right'){
 					left = $small.offset().left + $small.outerWidth() + opt.gap;
-					top = $small.offset().top;
+					top = $small.offset().top+ 260 + 'px';
 				}else if(opt.position === 'left'){
 					left = $small.offset().left - opt.width - opt.gap;
 					top = $small.offset().top;

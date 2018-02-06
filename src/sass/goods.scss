@@ -4,7 +4,7 @@
 #dGuid{
    .container{
     height: 40px;
-    background:pink;
+    // background:pink;
     line-height:40px;
     ul{
         li{
@@ -17,12 +17,272 @@
 }
 #dIntro{
     .container{
-        height: 592px;
-        background:yellow;
-        .show-pic{
-            height: 420px;
+        padding-top:20px;
+        width: 1200px;
+        height: 572px;
+        position:relative;
+        // background:yellow;
+        // padding-left:30px;
+        .introshow{
+            height: 556px;
             width: 420px;
-            background:green;
+            float:left;
+            // background:green;
+            .show-pic{
+                height: 430px;
+                width: 420px;
+                background:pink;
+                img{
+                    height: 440px;
+                    width: 440px;
+                } 
+            }
+            .smallList{
+                width: 360px;
+                height: 80px;
+                padding-left:60px;
+                position:relative;
+                margin-bottom:20px;
+                img{
+                    width:70px;
+                    margin-right:10px;
+                }
+                .zuo{
+                    width: 22px;
+                    height: 38px;
+                    position:absolute;
+                    left:12px;
+                    top:19px;
+                    background:url(../img/zuo.png) no-repeat;
+                }
+                .you{
+                    width: 22px;
+                    height: 38px;
+                    position:absolute;
+                    right:13px;
+                    top:17px;
+                    background:url(../img/you.png) no-repeat;
+                }
+            }
+            p{
+                position:relative;
+                .fenxiang{
+                    position:absolute;
+                    width: 19px;
+                    height: 17px;
+                    right:142px;
+                    top:0;
+                    background:url(../img/fenxiang.png) no-repeat;
+                }
+                .xin2{
+                    position:absolute;
+                    width: 17px;
+                    height: 17px;
+                    right:44px;
+                    top:0;
+                    background:url(../img/xin1.png) no-repeat;
+                }
+
+            }
+        }
+        .introInfo{
+            float:left;
+            height: 556px;
+            width: 549px;
+            // background:yellow;
+            margin-left:10px;
+            .introInfo-t{
+                height: 102px;
+                width: 543px;
+                // background:#f90;
+                padding-top:15px;
+                padding-left:5px;
+                p{
+                    font-weight:bold;
+                    width: 549px;
+                    font-size:14px;
+                    color:#000;
+                    margin-bottom:10px;
+                }
+            }
+            .introInfo-b{
+                width: 549px;
+                height: 191px;
+                background:#FAFAFA;
+                p{
+                    padding-left:30px;
+                    margin-bottom:20px;
+                    font-size:14px;
+                    span{
+                        padding-left:35px;
+                    }
+                }
+            }
+            .introInfo-a{
+                // height: 210px;
+                width: 549px;
+                // background:pink;
+                .city-box{
+                    height: 30px;
+                    width: 539px;
+                    line-height:10px;
+                    padding-top:20px;
+                    padding-left:10px;
+                    margin-bottom:20px;
+                    p{
+                        input{
+                            margin-left:30px;
+                            border:1px solid #ccc;
+                            width: 154px;
+                            height: 20px;
+                            padding-left:5px;
+                        }
+                    }
+                }
+                .quantity{
+                    margin-top:11px;
+                    padding-left:10px;
+                    height: 50px;
+                    // background:pink;
+                    line-height:50px;
+                    position:relative;
+                    .num{
+                        display:inline-block;
+                        height: 28px;
+                        width: 43px;
+                        line-height:28px;
+                        text-align:center;
+                        border:1px solid #ccc;
+                        margin-left:40px;
+                    }
+                    .zengjia{
+                        position:absolute;
+                        // display:inline-block;
+                        width: 15px;
+                        height: 12px;
+                        border:1px solid #ccc;
+                        left:123px;
+                        top:10px;
+                    }
+                    .jianshao{
+                        position:absolute;
+                        // display:inline-block;
+                        width: 15px;
+                        height: 11px;
+                        border:1px solid #ccc;
+                        left:123px;
+                        top:27px;
+                    }
+                    .shang{
+                        width:15px;
+                        height:8px;
+                        left:124px;
+                        top:12px;
+                        position:absolute;
+                        background:url(../img/shang.png) no-repeat;
+                    }
+                    .xia{
+                        width:15px;
+                        height:8px;
+                        left:124px;
+                        top:30px;
+                        position:absolute;
+                        background:url(../img/xia.png) no-repeat;
+                    }
+                }
+            }
+            .Scart{
+                margin-top:10px;
+                margin-left:100px;
+                width: 168px;
+                height: 40px;
+                background:red;
+                line-height:40px;
+                text-align:center;
+                color:#fff;
+                font-size:14px;
+            }
+        }
+        .introOther{
+            height: 556px;
+            float:left;
+            width: 200px;
+        }
+        .U-buy{
+            display:none;
+            border-radius:5px;
+            border:2px solid #ccc;
+            height:250px;
+            width: 461px;
+            // background:green;
+            position:absolute;
+            left:432px;
+            top:321px;
+            .u-buyT{
+                height: 60px;
+                width: 342px;
+                background:#f90;
+                position:relative;
+                padding-left:119px;
+                .close{
+                    height: 20px;
+                    width: 20px;
+                    position:absolute;
+                    right:0;
+                    padding:10px;
+                    font-size:16px;
+                }
+                .buyBox{
+                    padding-top:10px;
+                    height: 50px;
+                    width: 220px;
+                    .check{
+                        display:inline-block;
+                        height: 35px;
+                        width: 96px;
+                        background:red;
+                        color:#fff;
+                        line-height:35px;
+                        text-align:center;
+                        margin-left:4px;
+                    }
+                }
+            }
+        }
+    }
+}
+#details{
+    .details-l{
+        float:left;
+        width: 189px;
+        height: 3748px;
+        // background:blue;
+        border:1px solid #ccc;
+    }
+    .details-r{
+        width: 990px;
+        // background:pink;
+        height: 5374px;
+        float:left;
+        margin-left:8px;
+        .details-rt{
+            border:1px solid #ccc;
+            line-height:50px;
+            height: 50px;
+            width: 988px;
+            // background:#F90;
+            font-size:16px;
+            ul{
+                li{
+                    float:left;
+                    span{
+                        a{
+                            display:block;
+                            padding:0 23px 0 23px;
+                        }
+                    }
+                }
+            }
         }
     }
 }

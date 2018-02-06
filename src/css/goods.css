@@ -4,7 +4,6 @@
 
 #dGuid .container {
   height: 40px;
-  background: pink;
   line-height: 40px;
 }
 
@@ -15,12 +14,285 @@
 }
 
 #dIntro .container {
-  height: 592px;
-  background: yellow;
+  padding-top: 20px;
+  width: 1200px;
+  height: 572px;
+  position: relative;
 }
 
-#dIntro .container .show-pic {
-  height: 420px;
+#dIntro .container .introshow {
+  height: 556px;
   width: 420px;
-  background: green;
+  float: left;
+}
+
+#dIntro .container .introshow .show-pic {
+  height: 430px;
+  width: 420px;
+  background: pink;
+}
+
+#dIntro .container .introshow .show-pic img {
+  height: 440px;
+  width: 440px;
+}
+
+#dIntro .container .introshow .smallList {
+  width: 360px;
+  height: 80px;
+  padding-left: 60px;
+  position: relative;
+  margin-bottom: 20px;
+}
+
+#dIntro .container .introshow .smallList img {
+  width: 70px;
+  margin-right: 10px;
+}
+
+#dIntro .container .introshow .smallList .zuo {
+  width: 22px;
+  height: 38px;
+  position: absolute;
+  left: 12px;
+  top: 19px;
+  background: url(../img/zuo.png) no-repeat;
+}
+
+#dIntro .container .introshow .smallList .you {
+  width: 22px;
+  height: 38px;
+  position: absolute;
+  right: 13px;
+  top: 17px;
+  background: url(../img/you.png) no-repeat;
+}
+
+#dIntro .container .introshow p {
+  position: relative;
+}
+
+#dIntro .container .introshow p .fenxiang {
+  position: absolute;
+  width: 19px;
+  height: 17px;
+  right: 142px;
+  top: 0;
+  background: url(../img/fenxiang.png) no-repeat;
+}
+
+#dIntro .container .introshow p .xin2 {
+  position: absolute;
+  width: 17px;
+  height: 17px;
+  right: 44px;
+  top: 0;
+  background: url(../img/xin1.png) no-repeat;
+}
+
+#dIntro .container .introInfo {
+  float: left;
+  height: 556px;
+  width: 549px;
+  margin-left: 10px;
+}
+
+#dIntro .container .introInfo .introInfo-t {
+  height: 102px;
+  width: 543px;
+  padding-top: 15px;
+  padding-left: 5px;
+}
+
+#dIntro .container .introInfo .introInfo-t p {
+  font-weight: bold;
+  width: 549px;
+  font-size: 14px;
+  color: #000;
+  margin-bottom: 10px;
+}
+
+#dIntro .container .introInfo .introInfo-b {
+  width: 549px;
+  height: 191px;
+  background: #FAFAFA;
+}
+
+#dIntro .container .introInfo .introInfo-b p {
+  padding-left: 30px;
+  margin-bottom: 20px;
+  font-size: 14px;
+}
+
+#dIntro .container .introInfo .introInfo-b p span {
+  padding-left: 35px;
+}
+
+#dIntro .container .introInfo .introInfo-a {
+  width: 549px;
+}
+
+#dIntro .container .introInfo .introInfo-a .city-box {
+  height: 30px;
+  width: 539px;
+  line-height: 10px;
+  padding-top: 20px;
+  padding-left: 10px;
+  margin-bottom: 20px;
+}
+
+#dIntro .container .introInfo .introInfo-a .city-box p input {
+  margin-left: 30px;
+  border: 1px solid #ccc;
+  width: 154px;
+  height: 20px;
+  padding-left: 5px;
+}
+
+#dIntro .container .introInfo .introInfo-a .quantity {
+  margin-top: 11px;
+  padding-left: 10px;
+  height: 50px;
+  line-height: 50px;
+  position: relative;
+}
+
+#dIntro .container .introInfo .introInfo-a .quantity .num {
+  display: inline-block;
+  height: 28px;
+  width: 43px;
+  line-height: 28px;
+  text-align: center;
+  border: 1px solid #ccc;
+  margin-left: 40px;
+}
+
+#dIntro .container .introInfo .introInfo-a .quantity .zengjia {
+  position: absolute;
+  width: 15px;
+  height: 12px;
+  border: 1px solid #ccc;
+  left: 123px;
+  top: 10px;
+}
+
+#dIntro .container .introInfo .introInfo-a .quantity .jianshao {
+  position: absolute;
+  width: 15px;
+  height: 11px;
+  border: 1px solid #ccc;
+  left: 123px;
+  top: 27px;
+}
+
+#dIntro .container .introInfo .introInfo-a .quantity .shang {
+  width: 15px;
+  height: 8px;
+  left: 124px;
+  top: 12px;
+  position: absolute;
+  background: url(../img/shang.png) no-repeat;
+}
+
+#dIntro .container .introInfo .introInfo-a .quantity .xia {
+  width: 15px;
+  height: 8px;
+  left: 124px;
+  top: 30px;
+  position: absolute;
+  background: url(../img/xia.png) no-repeat;
+}
+
+#dIntro .container .introInfo .Scart {
+  margin-top: 10px;
+  margin-left: 100px;
+  width: 168px;
+  height: 40px;
+  background: red;
+  line-height: 40px;
+  text-align: center;
+  color: #fff;
+  font-size: 14px;
+}
+
+#dIntro .container .introOther {
+  height: 556px;
+  float: left;
+  width: 200px;
+}
+
+#dIntro .container .U-buy {
+  display: none;
+  border-radius: 5px;
+  border: 2px solid #ccc;
+  height: 250px;
+  width: 461px;
+  position: absolute;
+  left: 432px;
+  top: 321px;
+}
+
+#dIntro .container .U-buy .u-buyT {
+  height: 60px;
+  width: 342px;
+  background: #f90;
+  position: relative;
+  padding-left: 119px;
+}
+
+#dIntro .container .U-buy .u-buyT .close {
+  height: 20px;
+  width: 20px;
+  position: absolute;
+  right: 0;
+  padding: 10px;
+  font-size: 16px;
+}
+
+#dIntro .container .U-buy .u-buyT .buyBox {
+  padding-top: 10px;
+  height: 50px;
+  width: 220px;
+}
+
+#dIntro .container .U-buy .u-buyT .buyBox .check {
+  display: inline-block;
+  height: 35px;
+  width: 96px;
+  background: red;
+  color: #fff;
+  line-height: 35px;
+  text-align: center;
+  margin-left: 4px;
+}
+
+#details .details-l {
+  float: left;
+  width: 189px;
+  height: 3748px;
+  border: 1px solid #ccc;
+}
+
+#details .details-r {
+  width: 990px;
+  height: 5374px;
+  float: left;
+  margin-left: 8px;
+}
+
+#details .details-r .details-rt {
+  border: 1px solid #ccc;
+  line-height: 50px;
+  height: 50px;
+  width: 988px;
+  font-size: 16px;
+}
+
+#details .details-r .details-rt ul li {
+  float: left;
+}
+
+#details .details-r .details-rt ul li span a {
+  display: block;
+  padding: 0 23px 0 23px;
 }

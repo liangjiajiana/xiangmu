@@ -1,0 +1,125 @@
+#headed{
+    background:#F6F6F6;
+    .container{
+        line-height:26px;
+        height: 26px;
+        .headed-l{
+            float:left;
+            li{
+                float:left;
+                padding-left:5px;
+            }
+        }
+        .headed-r{
+            float:right;
+            li{
+                float:left;
+                padding-right:10px;
+            }
+        }
+    }
+}
+#hint{
+    margin-top:40px;
+    .container{
+        width: 1108px;
+        position:relative;
+        padding-left:92px;
+        height: 36px;
+        line-height:36px;
+        background:#FFFCF8;
+    }
+    i{
+        position:absolute;
+        width: 18px;
+        height: 28px;
+        left:68px;
+        top:5px;
+        background:url(../img/deng.png) no-repeat;
+    }
+}
+#car-box{
+    .container{
+        // height: 486px;
+        .car-t{
+            padding-top:10px;
+            height: 65px;
+            width: 1200px;
+            font-size:16px;
+            .ctab-T{
+                line-height:40px;
+                height: 40px;
+                width: 1180;
+                padding-left:20px;
+                border:1px dashed #ccc;
+                .all{
+                    width: 13px;
+                    height: 13px;
+                    padding-left:10px;
+                }
+                .message{
+                    padding-left:104px;
+                }
+                .univalence{
+                    padding-left:200px;
+                }
+                .gold{
+                    padding-left:130px;
+                }
+                .count{
+                    padding-left:140px;
+                }
+                .handle{
+                    padding-left:150px;
+                }
+            }
+        }
+        .shop{
+            font-size:18px;
+            margin-bottom:3px;
+        }
+        .carlist{
+            height: 400px;
+            li{
+                border:1px solid #ccc;
+                border-top:2px solid #ccc;
+                height: 122px;
+                width: 1198px;
+                position:relative;
+                margin-bottom:3px;
+                background:#F5F5F5;
+                .Choice{
+                    width: 13px;
+                    height: 13px;
+                    position:absolute;
+                    left:20px;
+                    top:20px;
+                }
+                .goods-Info{
+                    margin-left:40px;
+                    width: 1100px;
+                    height: 124px;
+                    .name{
+                        display:inline-block;
+                    }
+                    .pirce{
+                        font-size:16px;
+                        padding-left:240px;
+                        color:#f90;
+                    }
+                    .species{
+                        font-size:16px;
+                        padding-left:126px;
+                         color:#f90;
+                    }
+                    .jian{
+                       display:inline-block;
+                       width: 19px;
+                       height: 23px;
+                       border:1px solid #ccc; 
+                    }
+                }
+            }
+        }
+    }
+}
