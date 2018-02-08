@@ -225,16 +225,21 @@
 }
 
 #whiteWine .container .whiteWine-b .whiteWine-br {
-  height: 487px;
   width: 986px;
   float: left;
 }
 
-#whiteWine .container .whiteWine-b .whiteWine-br ul li {
+#whiteWine .container .whiteWine-b .whiteWine-br .whiteWinelist li {
   display: inline-block;
   height: 240px;
   width: 192px;
   border: 1px solid #ECECEC;
+  margin: 1px;
+}
+
+#whiteWine .container .whiteWine-b .whiteWine-br .whiteWinelist li img {
+  width: 161px;
+  height: 158px;
 }
 
 #whiteWine .container .whiteWine-b .whiteWine-brb {
@@ -319,7 +324,6 @@
 }
 
 #redWine .container .redWine-b .redWine-br {
-  height: 487px;
   width: 986px;
   float: left;
 }
@@ -329,6 +333,7 @@
   height: 240px;
   width: 192px;
   border: 1px solid #ECECEC;
+  margin: 1px;
 }
 
 #redWine .container .redWine-b .redWine-brb {
@@ -517,6 +522,7 @@
   height: 240px;
   width: 192px;
   border: 1px solid #ECECEC;
+  margin: 1px;
 }
 
 #healthWine .container .healthWine-b .healthWine-brb {
@@ -611,6 +617,7 @@
   height: 240px;
   width: 192px;
   border: 1px solid #ECECEC;
+  margin: 1px;
 }
 
 #food .container .food-b .food-brb {

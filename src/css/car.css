@@ -73,7 +73,7 @@
 }
 
 #car-box .container .car-t .ctab-T .univalence {
-  padding-left: 200px;
+  padding-left: 274px;
 }
 
 #car-box .container .car-t .ctab-T .gold {
@@ -94,7 +94,7 @@
 }
 
 #car-box .container .carlist {
-  height: 400px;
+  min-height: 300px;
 }
 
 #car-box .container .carlist li {
@@ -138,8 +138,107 @@
 }
 
 #car-box .container .carlist li .goods-Info .jian {
+  position: absolute;
   display: inline-block;
-  width: 19px;
-  height: 23px;
+  width: 16px;
+  height: 12px;
   border: 1px solid #ccc;
+  margin-left: 114px;
+  padding-top: 2px;
+  right: 334px;
+  top: 33px;
+}
+
+#car-box .container .carlist li .goods-Info .num {
+  position: absolute;
+  display: inline-block;
+  width: 43px;
+  height: 14px;
+  border: 1px solid #ccc;
+  border-left: 0px;
+  line-height: 18px;
+  text-align: center;
+  line-height: 15px;
+  right: 290px;
+  top: 33px;
+}
+
+#car-box .container .carlist li .goods-Info .jia {
+  position: absolute;
+  display: inline-block;
+  width: 16px;
+  height: 14px;
+  border: 1px solid #ccc;
+  border-left: 0px;
+  right: 273px;
+  top: 33px;
+}
+
+#car-box .container .carlist li .goods-Info .close {
+  padding-left: 322px;
+  font-size: 16px;
+}
+
+#car-box .container .carlist li .goods-Info .jiahao {
+  width: 18px;
+  height: 16px;
+  position: absolute;
+  top: 32px;
+  right: 273px;
+  background: url(../img/jiahao.png) no-repeat;
+}
+
+#car-box .container .carlist li .goods-Info .jianhao {
+  width: 17px;
+  height: 18px;
+  position: absolute;
+  top: 32px;
+  right: 333px;
+  background: url(../img/jianhao.png) no-repeat;
+}
+
+#car-box .container .ctab-B {
+  margin-bottom: 30px;
+  height: 63px;
+  width: 1200px;
+  background: #F8F8F8;
+  position: relative;
+}
+
+#car-box .container .ctab-B .all2 {
+  position: absolute;
+  left: 22px;
+  top: 20px;
+}
+
+#car-box .container .ctab-B .ctab-Box {
+  padding-left: 10px;
+  padding-top: 18px;
+  width: 1000px;
+  height: 45px;
+  margin-left: 35px;
+}
+
+#car-box .container .ctab-B .ctab-Box .freight {
+  margin-left: 576px;
+}
+
+#car-box .container .ctab-B .ctab-Box .total {
+  font-weight: bold;
+  font-size: 18px;
+  margin-left: 5px;
+  color: red;
+}
+
+#car-box .container .ctab-B .btn {
+  height: 63px;
+  width: 150px;
+  line-height: 63px;
+  background: red;
+  position: absolute;
+  right: 0;
+  top: 0;
+  text-align: center;
+  color: #fff;
+  font-size: 16px;
 }

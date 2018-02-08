@@ -4,7 +4,7 @@ jQuery(function($){
     $('#header').load('../html/header.html');
     $('#foot').load('../html/foot.html');
 
-    // ------Tab切换-----
+    // ------Tab切换1-----
     var $itemtab = $('.contentThree-t').find('ul li ');
     var $content = $('.contentThree-b').find('ul');
     // $content.slice(1).hide();
@@ -82,4 +82,73 @@ jQuery(function($){
         var idx = $(this).index();
         $content2.eq(idx).show().siblings().hide(); 
    })
+
+    // ---------获取数据库的数据---------
+   $.ajax({
+      url:'../api/index.php',
+      success:function(data){
+
+        var res = JSON.parse(data);
+        
+        $whiteWinelist = $('.whiteWinelist');
+
+        $whiteWinelist.html(res.map(function(item){
+              if(item.category == '白酒'){
+                 return `<li id ="${item.id}">
+                         <img src="${item.imgs}">
+                          <p>${item.name}<p>
+                          <p class="price" style="color:red;">${item.price}<p>
+                    </li>`
+              }
+        }));
+
+        $redWinelist = $('.redWinelist');
+        $redWinelist.html(res.map(function(item){
+              if(item.category == '葡萄酒'){
+                 return `<li id="${item.id}">
+                         <img src="${item.imgs}">
+                          <p>${item.name}<p>
+                          <p class="price" style="color:red;">${item.price}<p>
+                    </li>`
+              }
+        }));
+
+        $foreignWinelist = $('.foreignWinelist');
+        $foreignWinelist.html(res.map(function(item){
+              if(item.category == '洋酒'){
+                 return `<li id="${item.id}">
+                         <img src="${item.imgs}">
+                          <p>${item.name}<p>
+                          <p class="price" style="color:red;">${item.price}<p>
+                    </li>`
+              }
+        }));
+
+        $healthWinelist = $('.healthWinelist');
+        $healthWinelist.html(res.map(function(item){
+              if(item.category == '葡萄酒'){
+                 return `<li id="${item.id}">
+                         <img src="${item.imgs}">
+                          <p>${item.name}<p>
+                          <p class="price" style="color:red;">${item.price}<p>
+                    </li>`
+              }
+        }));
+
+        // ------生成食物-------
+        $foodlist = $('.foodlist');
+        $foodlist.html(res.map(function(item){
+              if(item.category == '食物'){
+                 return `<li id="${item.id}">
+                         <img src="${item.imgs}">
+                          <p>${item.name}<p>
+                          <p class="price" style="color:red;">${item.price}<p>
+                    </li>`
+              }
+        }));
+
+
+      }
+   })
+
 })

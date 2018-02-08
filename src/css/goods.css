@@ -15,9 +15,13 @@
 
 #dIntro .container {
   padding-top: 20px;
+  position: relative;
+}
+
+#dIntro .container ul li {
   width: 1200px;
   height: 572px;
-  position: relative;
+  background: pink;
 }
 
 #dIntro .container .introshow {

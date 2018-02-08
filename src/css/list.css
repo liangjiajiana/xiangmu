@@ -317,6 +317,7 @@
 }
 
 #srp .container .datalist .goodslist li .price {
+  padding-top: 3px;
   color: red;
   padding-left: 35px;
   font-size: 18px;
@@ -324,8 +325,9 @@
 }
 
 #srp .container .datalist .goodslist li .name {
+  padding-top: 3px;
   padding-left: 35px;
-  color: red;
+  color: #000;
 }
 
 #srp .container .page {
@@ -342,7 +344,13 @@
   height: 30px;
   line-height: 30px;
   text-align: center;
-  background-color: #C41921;
+  border: 1px solid #ccc;
+  color: #000;
+  margin-right: 5px;
+}
+
+#srp .container .page .active {
+  background-color: red;
   color: #fff;
 }
 

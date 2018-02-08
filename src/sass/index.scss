@@ -193,15 +193,24 @@
           }
         }
         .whiteWine-br{
-          height: 487px;
+          // height: 487px;
           width: 986px;
           float:left;
-          ul{
+          .whiteWinelist{
+            // height: 986px;
             li{
               display:inline-block;
               height: 240px;
               width: 192px;
               border:1px solid #ECECEC;
+              margin:1px;
+              // .pirce{
+              //   color:red;
+              // }
+              img{
+                width: 161px;
+                height: 158px;
+              }
             }
           }
         }
@@ -276,7 +285,7 @@
           }
         }
         .redWine-br{
-          height: 487px;
+          // height: 487px;
           width: 986px;
           float:left;
           ul{
@@ -285,6 +294,7 @@
               height: 240px;
               width: 192px;
               border:1px solid #ECECEC;
+              margin:1px;
             }
           }
         }
@@ -451,6 +461,7 @@
               height: 240px;
               width: 192px;
               border:1px solid #ECECEC;
+              margin:1px;
             }
           }
         }
@@ -534,6 +545,7 @@
               height: 240px;
               width: 192px;
               border:1px solid #ECECEC;
+              margin:1px;
             }
           }
         }

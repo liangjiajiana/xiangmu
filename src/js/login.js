@@ -1,10 +1,34 @@
-/* 
-* @Author: Marte
-* @Date:   2018-02-04 21:45:07
-* @Last Modified by:   Marte
-* @Last Modified time: 2018-02-04 21:47:09
-*/
+jQuery(function($){
+    // --------验证码----------
+    var code = document.querySelector('.code');
+    function createCode(){
+        var res = '';
+        for(var i=0;i<4;i++){
+            var num = parseInt(Math.random()*10);
+            res+=num;
+        }
+        return res;
+    }
+        var yzm = createCode();
 
-$(document).ready(function(){
-    
-});
+        code.innerHTML = yzm;
+
+    $('.btn').on('click',function(){
+        
+        $.ajax({
+            url:'../api/login.php',
+            data:{
+                username:$('#username').val(),
+                password:$('#password').val()
+            },
+            success:function(data){
+                console.log(data);
+                if(data == 'success'){
+                    location.href = '../index.html';
+                }else{
+                    alert('登录失败');
+                }
+            }
+        })
+    })
+})
