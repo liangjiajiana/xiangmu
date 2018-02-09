@@ -277,6 +277,39 @@
   border: 1px solid #ccc;
 }
 
+#details .details-l .details-lt {
+  line-height: 37px;
+  height: 37px;
+  width: 179px;
+  background: #FAFAFA;
+  padding-left: 10px;
+}
+
+#details .details-l .details-lt2 {
+  height: 104px;
+  width: 174px;
+  border-bottom: 1px solid #ECECEC;
+  padding-top: 14px;
+  padding-left: 15px;
+  margin-bottom: 10px;
+}
+
+#details .details-l .details-lt2 p {
+  margin-bottom: 3px;
+}
+
+#details .details-l .details-lt2 .yidong {
+  margin-left: 60px;
+}
+
+#details .details-l .details-lt3 {
+  line-height: 37px;
+  height: 37px;
+  width: 179px;
+  background: #FAFAFA;
+  padding-left: 10px;
+}
+
 #details .details-r {
   width: 990px;
   height: 5374px;

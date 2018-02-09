@@ -8,9 +8,10 @@
         <link rel="stylesheet" type="text/css" href="css/index.css" />
         <link rel="stylesheet" type="text/css" href="lib/jquery-lxCarousel/jquery.lxCarousel.css" />
     </head>
-    <script src="lib/jquery-3.2.1.js"></script>
+   <!--  <script src="lib/jquery-3.2.1.js"></script>
    <script src="lib/jquery-lxCarousel/jquery.lxCarousel.js"></script>
-    <script src="js/index.js"></script>
+    <script src="js/index.js"></script> -->
+    <script src="js/require.js" data-main="js/index"></script>
     <body>
         <div id="header"></div>
         <div id="carousel">
@@ -277,31 +278,7 @@
              <i></i>
              <h3>优惠推荐</h3>
              <div class="raceListWrap-b">
-                <ul>
-                    <li><img src="img/jiu1.png" height="158" width="177" alt="" />
-                     <p>52°白水杜康一坛老酒1000ml（双坛装）</p>
-                     <p>$333</p>
-                     </li>
-                    <li><img src="img/jiu2.png" height="158" width="177" alt="" />
-                     <p>52°白水杜康一坛老酒1000ml（双坛装）</p>
-                     <p>$333</p>
-                     </li>
-                    <li><img src="img/jiu3.png" height="158" width="177" alt="" />
-                     <p>52°白水杜康一坛老酒1000ml（双坛装）</p>
-                     <p>$333</p>
-                     </li>
-                    <li><img src="img/jiu4.png" height="158" width="177" alt="" />
-                     <p>52°白水杜康一坛老酒1000ml（双坛装）</p>
-                     <p>$333</p>
-                     </li>
-                    <li><img src="img/jiu5.png" height="158" width="177" alt="" />
-                     <p>52°白水杜康一坛老酒1000ml（双坛装）</p>
-                     <p>$333</p>
-                     </li>
-                    <li><img src="img/jiu6.png" height="158" width="177" alt="" />
-                     <p>52°白水杜康一坛老酒1000ml（双坛装）</p>
-                     <p>$333</p>
-                    </li>
+                <ul class="recommend">
                 </ul>
              </div>
             </div>
@@ -328,7 +305,14 @@
                         </ul>
                     </div>
                     <div class="whiteWine-brb">
-                      <!--   <h4>本周热销排行榜</h4> -->
+                        <h4>本周热销排行榜</h4>
+                        <ul class="bTen">
+                          <!--   <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li> -->
+                        </ul>
                     </div>
                 </div>
             </div>
@@ -355,7 +339,9 @@
                         </ul>
                     </div>
                     <div class="redWine-brb">
-                        <!-- <h4>本周热销排行榜</h4> -->
+                        <h4>本周热销排行榜</h4>
+                        <ul class="grape">
+                        </ul>
                     </div>
                 </div>
             </div>

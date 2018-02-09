@@ -8,9 +8,10 @@
         <link rel="stylesheet" type="text/css" href="../css/goods.css" />
         <link rel="stylesheet" type="text/css" href="../lib/jquery.gdsZoom/jquery.gdsZoom.css" />
     </head>
-    <script src="../lib/jquery-3.2.1.js"></script>
+    <!-- <script src="../lib/jquery-3.2.1.js"></script>
     <script src="../lib/jquery.gdsZoom/jquery.gdsZoom.js"></script>
-    <script src="../js/goods.js"></script>
+    <script src="../js/goods.js"></script> -->
+     <script src="../js/require.js" data-main="../js/goods"></script>
     <body>
      <div id="headed"></div>
      <div id="nav1">
@@ -21,7 +22,7 @@
      <div id="dGuid">
          <div class="container">
              <ul>
-                 <li><a href="#">首页></a></li>
+                 <li><a href="../index.html">首页></a></li>
                  <li><a href="#">葡萄酒></a></li>
                  <li><a href="#">莱菲堡></a></li>
                  <li id="goodsName"></li>
@@ -39,9 +40,9 @@
                   </div>
                   <div class="smallList">
                       <i class="zuo"></i>
-                      <!-- <img src="../img/fangdajing1.jpg"/>
+                      <img src="../img/fangdajing1.jpg"/>
                       <img src="../img/fangdajing2.jpg"/>
-                      <img src="../img/fangdajing3.jpg"/> -->
+                      <img src="../img/fangdajing3.jpg"/>
                       <img class="photo1"/>
                       <img class="photo2"/>
                       <img class="photo3"/>
@@ -91,7 +92,22 @@
      <div id="details">
          <div class="container">
              <div class="details-l">
-                <div class="details-lt"></div>
+                <h3 class="details-lt">
+                    相关分类
+                </h3>
+                <div class="details-lt2">
+                    <p>洋酒酒<span class="yidong">葡萄酒</span></p>
+                    <p>洋酒酒<span class="yidong">黄酒</span></p>
+                    <p>养生酒<span class="yidong">啤酒</span></p>
+                    <p>葡萄酒<span class="yidong">酒具</span></p>
+                </div>
+                <h3 class="details-lt3">推荐品牌</h3>
+                <div class="details-lt2">
+                    <p>拉菲<span class="yidong">奔富酒园</span></p>
+                    <p>张裕<span class="yidong">智利人</span></p>
+                    <p>蓝爵<span class="yidong">沃特</span></p>
+                    <p>拉菲<span class="yidong">火焰</span></p>
+                </div>
              </div>
              <div class="details-r">
                  <div class="details-rt">

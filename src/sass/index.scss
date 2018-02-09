@@ -126,12 +126,13 @@
         height: 213px;
         width: 1200px;
         border:1px solid #ECECEC;
+        background:#fff;
         ul{
           li{
             display:inline-block;
-            width: 196px;
+            width: 195px;
             height: 213px;
-            border-right:1px solid #ccc;
+            margin-right:4px;
           }
         }
       }
@@ -193,8 +194,8 @@
           }
         }
         .whiteWine-br{
-          // height: 487px;
-          width: 986px;
+          background:#fff;
+          width: 980px;
           float:left;
           .whiteWinelist{
             // height: 986px;
@@ -215,15 +216,36 @@
           }
         }
         .whiteWine-brb{
+          // margin-left:1px;
           margin-top:15px;
-          height: 140px;
+          height: 137px;
           width: 984px;
           float:left;
+          border-bottom:1px solid #ECECEC;
           // background:pink;
           h4{
             width: 964px;
             padding-left:20px;
-            font-size:18px;
+            font-size:16px;
+            font-weight:bold;
+            color:red;;
+            margin-bottom:17px;
+          }
+          .bTen{
+            li{
+              display:inline-block;
+              height: 109px;
+              width: 191px;
+                img{
+                  display:inline-block;
+                }
+                p{
+                  display:inline-block;
+                }
+                .price{
+                  display:inline-block;
+                }
+            }
           }
         }
       }
@@ -285,8 +307,8 @@
           }
         }
         .redWine-br{
-          // height: 487px;
-          width: 986px;
+          background:#fff;
+          width: 980px;
           float:left;
           ul{
             li{
@@ -300,14 +322,34 @@
         }
         .redWine-brb{
           margin-top:15px;
-          height: 140px;
+           height: 137px;
           width: 984px;
           float:left;
-          // background:pink;
+          border-bottom:1px solid #ECECEC;
           h4{
             width: 964px;
             padding-left:20px;
-            font-size:18px;
+            font-size:16px;
+            font-weight:bold;
+            color:red;;
+            margin-bottom:17px;
+          }
+          .grape{
+            li{
+              display:inline-block;
+              height: 109px;
+              width: 191px;
+              // border:1px solid #ccc;
+                img{
+                  display:inline-block;
+                }
+                p{
+                  display:inline-block;
+                }
+                // .price{
+                //   display:inline-block;
+                // }
+            }
           }
         }
       }
@@ -369,8 +411,8 @@
           }
         }
         .foreignWine-br{
-          height: 487px;
-          width: 986px;
+           background:#fff;
+          width: 970px;
           float:left;
           ul{
             li{
@@ -452,8 +494,8 @@
           }
         }
         .healthWine-br{
-          height: 487px;
-          width: 986px;
+          background:#fff;
+          width: 980px;
           float:left;
           ul{
             li{
@@ -536,8 +578,8 @@
           }
         }
         .food-br{
-          height: 487px;
-          width: 986px;
+          background:#fff;
+          width: 980px;
           float:left;
           ul{
             li{
@@ -546,6 +588,10 @@
               width: 192px;
               border:1px solid #ECECEC;
               margin:1px;
+              img{
+                width: 193px;
+                height: 173px;
+              }
             }
           }
         }

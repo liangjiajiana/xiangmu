@@ -147,13 +147,14 @@
   height: 213px;
   width: 1200px;
   border: 1px solid #ECECEC;
+  background: #fff;
 }
 
 #raceListWrap .container .raceListWrap-b ul li {
   display: inline-block;
-  width: 196px;
+  width: 195px;
   height: 213px;
-  border-right: 1px solid #ccc;
+  margin-right: 4px;
 }
 
 #whiteWine {
@@ -225,7 +226,8 @@
 }
 
 #whiteWine .container .whiteWine-b .whiteWine-br {
-  width: 986px;
+  background: #fff;
+  width: 980px;
   float: left;
 }
 
@@ -244,15 +246,37 @@
 
 #whiteWine .container .whiteWine-b .whiteWine-brb {
   margin-top: 15px;
-  height: 140px;
+  height: 137px;
   width: 984px;
   float: left;
+  border-bottom: 1px solid #ECECEC;
 }
 
 #whiteWine .container .whiteWine-b .whiteWine-brb h4 {
   width: 964px;
   padding-left: 20px;
-  font-size: 18px;
+  font-size: 16px;
+  font-weight: bold;
+  color: red;
+  margin-bottom: 17px;
+}
+
+#whiteWine .container .whiteWine-b .whiteWine-brb .bTen li {
+  display: inline-block;
+  height: 109px;
+  width: 191px;
+}
+
+#whiteWine .container .whiteWine-b .whiteWine-brb .bTen li img {
+  display: inline-block;
+}
+
+#whiteWine .container .whiteWine-b .whiteWine-brb .bTen li p {
+  display: inline-block;
+}
+
+#whiteWine .container .whiteWine-b .whiteWine-brb .bTen li .price {
+  display: inline-block;
 }
 
 #redWine {
@@ -324,7 +348,8 @@
 }
 
 #redWine .container .redWine-b .redWine-br {
-  width: 986px;
+  background: #fff;
+  width: 980px;
   float: left;
 }
 
@@ -338,15 +363,33 @@
 
 #redWine .container .redWine-b .redWine-brb {
   margin-top: 15px;
-  height: 140px;
+  height: 137px;
   width: 984px;
   float: left;
+  border-bottom: 1px solid #ECECEC;
 }
 
 #redWine .container .redWine-b .redWine-brb h4 {
   width: 964px;
   padding-left: 20px;
-  font-size: 18px;
+  font-size: 16px;
+  font-weight: bold;
+  color: red;
+  margin-bottom: 17px;
+}
+
+#redWine .container .redWine-b .redWine-brb .grape li {
+  display: inline-block;
+  height: 109px;
+  width: 191px;
+}
+
+#redWine .container .redWine-b .redWine-brb .grape li img {
+  display: inline-block;
+}
+
+#redWine .container .redWine-b .redWine-brb .grape li p {
+  display: inline-block;
 }
 
 #foreignWine {
@@ -418,8 +461,8 @@
 }
 
 #foreignWine .container .foreignWine-b .foreignWine-br {
-  height: 487px;
-  width: 986px;
+  background: #fff;
+  width: 970px;
   float: left;
 }
 
@@ -512,8 +555,8 @@
 }
 
 #healthWine .container .healthWine-b .healthWine-br {
-  height: 487px;
-  width: 986px;
+  background: #fff;
+  width: 980px;
   float: left;
 }
 
@@ -607,8 +650,8 @@
 }
 
 #food .container .food-b .food-br {
-  height: 487px;
-  width: 986px;
+  background: #fff;
+  width: 980px;
   float: left;
 }
 
@@ -618,6 +661,11 @@
   width: 192px;
   border: 1px solid #ECECEC;
   margin: 1px;
+}
+
+#food .container .food-b .food-br ul li img {
+  width: 193px;
+  height: 173px;
 }
 
 #food .container .food-b .food-brb {

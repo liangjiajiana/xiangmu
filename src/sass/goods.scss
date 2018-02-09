@@ -263,6 +263,35 @@
         height: 3748px;
         // background:blue;
         border:1px solid #ccc;
+        .details-lt{
+            line-height:37px;
+            height: 37px;
+            width: 179px;
+            background:#FAFAFA;
+            padding-left:10px;
+        }
+        .details-lt2{
+            height: 104px;
+            width: 174px;
+            border-bottom:1px solid #ECECEC;
+            padding-top:14px;
+            padding-left:15px;
+            margin-bottom:10px;
+            p{
+                margin-bottom:3px;
+            }
+            .yidong{
+                margin-left:60px;
+            }
+        }
+        .details-lt3{
+            line-height:37px;
+            height: 37px;
+            width: 179px;
+            background:#FAFAFA;
+            padding-left:10px;
+        }
+
     }
     .details-r{
         width: 990px;
